@@ -1,0 +1,40 @@
+.certificates {
+  margin: -20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  min-height: calc(100vh - 180px);
+  @media (max-width: 576px) {
+    .page-title {
+      h1.ant-typography, .ant-typography h1 {
+        font-size: 30px;
+      }
+    }
+  }
+  @media (max-width: 576px) {
+    .ant-tabs {
+      overflow: visible;
+    }
+  }
+  .ant-tabs-nav .ant-tabs-tab {
+    font-size: 18px;
+    color: #314659;
+    @media (max-width: 576px) {
+      font-size: 15px;
+    }
+  }
+  .ant-tabs-nav .ant-tabs-tab:active {
+    color: #314659;
+  }
+  .ant-tabs-nav .ant-tabs-tab:hover {
+    color: #314659;
+  }
+  .ant-tabs-nav .ant-tabs-tab-active {
+    color: #0d1a26;
+  }
+  .ant-tabs-ink-bar {
+    background-color: #0d1a26;
+  }
+  .certificate-tab {
+    min-height: 250px;
+  }
+}

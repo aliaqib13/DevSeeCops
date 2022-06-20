@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="151.5" height="150" viewBox="0 0 151.5 150">
+  <g id="Group_686" data-name="Group 686" transform="translate(-1453.9 -424)">
+    <g id="Ellipse_71" data-name="Ellipse 71" transform="translate(1453.9 424)" fill="#fff" stroke="#27393d" stroke-miterlimit="10" stroke-width="2">
+      <circle cx="75" cy="75" r="75" stroke="none"/>
+      <circle cx="75" cy="75" r="74" fill="none"/>
+    </g>
+    <g id="Ellipse_72" data-name="Ellipse 72" transform="translate(1473.9 444)" fill="none" stroke="#27393d" stroke-miterlimit="10" stroke-width="2">
+      <circle cx="55" cy="55" r="55" stroke="none"/>
+      <circle cx="55" cy="55" r="54" fill="none"/>
+    </g>
+    <g id="Ellipse_73" data-name="Ellipse 73" transform="translate(1493.9 464)" fill="none" stroke="#27393d" stroke-miterlimit="10" stroke-width="2">
+      <circle cx="35" cy="35" r="35" stroke="none"/>
+      <circle cx="35" cy="35" r="34" fill="none"/>
+    </g>
+    <g id="Ellipse_74" data-name="Ellipse 74" transform="translate(1503.9 474)" fill="none" stroke="#27393d" stroke-miterlimit="10" stroke-width="2">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24" fill="none"/>
+    </g>
+    <g id="Ellipse_75" data-name="Ellipse 75" transform="translate(1513.9 484)" fill="none" stroke="#27393d" stroke-miterlimit="10" stroke-width="2">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="14" fill="none"/>
+    </g>
+    <path id="Polygon_20" data-name="Polygon 20" d="M50,0l50,75H0Z" transform="translate(1529.4 549.5) rotate(-90)" fill="#fff"/>
+    <g id="Group_687" data-name="Group 687" transform="translate(-139.6 190)">
+      <path id="Polygon_21" data-name="Polygon 21" d="M5.5,0,11,10H0Z" transform="matrix(-0.574, -0.819, 0.819, -0.574, 1668.425, 316.798)" fill="#27393d"/>
+      <path id="Path_1992" data-name="Path 1992" d="M1744,280V259.527l-72.866,48.585" fill="none" stroke="#27393d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

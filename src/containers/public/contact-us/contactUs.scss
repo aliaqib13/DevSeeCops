@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swa");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.global-container {
+  position: relative;
+  overflow-y: hidden;
+
+
+  .main {
+    padding-top: 136px;
+
+    * {
+      color: #03306B;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h4.heading {
+      margin-top: 117px;
+      font-size: 32px;
+      font-weight: 600;
+      color: #03306B;
+    }
+
+    .form-field, textarea {
+      width: 100%;
+      border: 1px solid #c5c5c5;
+      margin: 7px 0;
+      padding: 8px;
+      border-radius: 5px;
+    }
+    button.submit {
+      border-radius: 24px;
+      background: #2AA5F9;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      padding: 8px 30px;
+      margin: 20px 0;
+      float: right;
+    }
+  }
+}

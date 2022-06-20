@@ -1,0 +1,38 @@
+.editEvent {
+    .sponsor-container {
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .sponsor-name {
+        float: left
+    }
+    
+    .sponsor-logo {
+        float: right;  
+        margin-left: 60px   
+    }
+    
+    .sponsor-image {
+        width: 110px !important;
+        height: 80px !important
+    }
+    
+    .upload-email {
+        margin-top: 10px;
+    }
+    
+    .uploaded-tick {
+        margin-left: 3px;
+        color: green
+    }
+    
+    .add-sponsor {
+        width: 145px;
+        margin-bottom: 15px
+    }
+
+    .copy-button {
+        margin-left: 10px
+    }
+}

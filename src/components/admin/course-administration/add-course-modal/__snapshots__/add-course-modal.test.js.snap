@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddCourseModal Should render successfully 1`] = `
+<Modal
+  confirmLoading={false}
+  destroyOnClose={true}
+  footer={
+    Array [
+      <Button
+        block={false}
+        ghost={false}
+        htmlType="button"
+        loading={false}
+        onClick={[Function]}
+      >
+        Close
+      </Button>,
+    ]
+  }
+  maskTransitionName="fade"
+  okType="primary"
+  onCancel={[Function]}
+  title="Add Course"
+  transitionName="zoom"
+  visible={false}
+  width={960}
+>
+  <Form(withRouter(AddCourse)) />
+</Modal>
+`;

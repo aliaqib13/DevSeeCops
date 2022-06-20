@@ -1,0 +1,31 @@
+.no-scroll {
+  overflow: hidden;
+  touch-action: none;
+}
+.page-content {
+  padding: 20px;
+  min-height: inherit;
+}
+
+.root-content {
+  margin: 88px 16px 0;
+  background: #fff;
+  min-height: calc(100vh - 180px);
+}
+
+.header-content {
+  background: #fff;
+  padding-left: 15px;
+}
+.main-footer {
+  padding: 0 36px;
+  height: 94px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tidio-chat-iframe {
+  bottom: -18px !important;
+}

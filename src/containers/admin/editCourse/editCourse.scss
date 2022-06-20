@@ -1,0 +1,25 @@
+.editCourseContainer {
+    margin-top: -20px;
+    .categoryName {
+        border-bottom: 1px solid buttonface;
+        margin-bottom: 21px;
+        padding-top: 20px;
+        background-color: #ffffff;
+        display: flex;
+        h1 {
+            margin-bottom: 20px;
+        }
+        p {
+            margin-left: 20px;
+        }
+    }
+}
+.tokenCost-validation {
+    .ant-descriptions-item-content {
+        border: 2px solid red;
+        border-radius: 5px;
+    }
+    .ant-descriptions-item-label {
+        color: red!important;
+    }
+}

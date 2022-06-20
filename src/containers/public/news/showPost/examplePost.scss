@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swa");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.global-container {
+  .info_name {
+    margin-top: 136px;
+    border-width: 0px;
+    border-color: #e2e2e2;
+    border-style: solid;
+    margin-bottom: 0px;
+    padding: 7% 30px 7%;
+    background: url("/img/images/background-titel-DevSecOps.jpg") no-repeat center;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .info_name h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    letter-spacing: -2px;
+    color: rgb(255, 255, 255);
+    font-size: 54px;
+    line-height: 1.16;
+    text-align: center;
+  }
+
+  .direction p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #435554;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  span.loc {
+    margin-left: 5px;
+    margin-right: 5px;
+
+    a {
+      color: inherit;
+    }
+
+    a:hover {
+      color: #dd5f56 !important
+    }
+  }
+
+  section.direction {
+    border-bottom: 1px solid #d4d4d4;
+  }
+
+  section.posts {
+    padding: 55px 55px;
+
+    p.text-post {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      padding: 20px;
+      margin-bottom: 10px;
+      font-style: normal;
+      line-height: 1.8;
+    }
+  }
+
+  .related {
+    margin-right: 1.92%;
+    padding: 60px 30px 40px !important;
+    margin-left: 1.92%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 71, 135);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 25px;
+
+    h1 {
+      color: #fff;
+      font-family: "Open Sans", sans-serif;
+      font-size: 35px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .line {
+      width: 50%;
+      background: #fff;
+      height: 4px;
+      margin: 20px auto;
+    }
+
+    a {
+      font-size: 22px;
+      font-family: 'Open Sans', sans-serif;
+      color: #fff;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    img {
+      margin-top: 20px;
+    }
+
+    p {
+      color: #fff1f0;
+      font-family: "Open Sans", sans-serif;
+      font-size: 22px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-weight: 600;
+    }
+  }
+
+  .by {
+    p {
+      font-size: 13px;
+      font-family: 'Montserrat', sans-serif;
+      width: 100%;
+      border-top: 1px solid #d4d4d4;
+      border-bottom: 1px solid #d4d4d4;
+      padding: 7px;
+    }
+
+    span.published {
+      margin-left: 10px;
+    }
+  }
+
+  .fusion-rollover {
+    position: relative;
+  }
+
+  .fusion-rollover-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #004787 0, rgba(0, 71, 135, 0.5))
+  }
+
+  h4.fusion-rollover-title.fusion-responsive-typography-calculated a {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .fusion-load-more-button.fusion-blog-button.fusion-clearfix {
+    margin-top: 20px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .2s;
+    background-color: #004787;
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px !important;
+  }
+
+  .content {
+    position: relative;
+    width: 100%;
+    max-width: 440px;
+    margin: auto;
+    overflow: hidden;
+    img.content-image.img-fluid {
+      height: 265px;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    h4.fusion-rollover-title.fusion-responsive-typography-calculated{
+      color: #FFFFFF;
+    }
+  }
+
+  .content .content-overlay {
+    background-image: linear-gradient(to top, #004787 0, rgba(0, 71, 135, 0.5));
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+
+
+  .content:hover .content-overlay {
+    opacity: 1;
+  }
+
+  .content-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width: 96%;
+  }
+
+  .content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+
+  .content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+
+  .content-details p {
+    color: #fff;
+    font-size: 0.8em;
+  }
+
+  .fadeIn-bottom {
+    top: 80%;
+  }
+
+  .fadeIn-top {
+    top: 20%;
+  }
+
+  .fadeIn-left {
+    left: 20%;
+  }
+
+  .fadeIn-right {
+    left: 80%;
+  }
+
+  .ant-carousel {
+    p {
+      width: 30px;
+      height: 30px;
+      opacity: .8;
+      border: none;
+      background-color: rgba(42, 165, 249, 0.75);
+      position: absolute;
+      outline: none;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+  }
+
+  .posts-slider {
+    padding-bottom: 50px;
+    h1 {
+      font-size: 18px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      margin: 10px 10px 30px;
+    }
+  }
+
+  .next-button {
+    right: 10px;
+
+    button {
+      border: none;
+      background: transparent !important;
+      outline: none
+    }
+  }
+
+  .prev-button {
+    left: 10px;
+
+    button {
+      border: none;
+      background: transparent !important;
+      outline: none;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    section.direction, .posts-slider{
+      display: none;
+    }
+
+    section.info_name {
+      padding: 7% 24px 7%!important;
+    }
+
+    section.posts {
+      padding: 25px 0px;
+    }
+
+    .related {
+      padding: 40px 10px 40px !important;
+    }
+  }
+}

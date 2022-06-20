@@ -1,0 +1,35 @@
+.learning-paths-list {
+  td:nth-child(1){
+    max-width: 120px;
+  }
+  td:nth-child(2){
+      max-width: 300px;
+  }
+  .learning-path-edit {
+    .video-play-arrow {
+      position: absolute;
+      margin-left: 85px;
+      margin-top: 30px;
+      cursor: pointer;
+      z-index: 100;
+      font-size: 25px;
+    }
+  
+    .video-cont {
+      margin-top: 40px;
+      @media screen and (max-width: 767px) {
+        float: unset;
+        margin-top: 0;
+      }
+    }  
+
+    .ant-upload {
+        margin-top: 10px;
+    }
+
+    .resource-type {
+        margin-bottom: 10px;
+    } 
+  }
+}
+  

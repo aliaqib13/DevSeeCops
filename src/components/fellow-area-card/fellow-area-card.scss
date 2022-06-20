@@ -1,0 +1,49 @@
+.fellow-card {
+  width: 280px;
+  height: 100%;
+  background-color: #f8f8f8;
+  text-align: center;
+  line-height: 23px;
+  padding: 30px 20px 28px;
+  @media(max-width: 1366px) {
+    width: 158px;
+    line-height: 16px
+  }
+  .img-container {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.img-container-company {
+      width: 110px;
+      height: 110px;
+      img {
+        width: auto;
+        height: 66px;
+        border-radius: 0;
+      }
+    }
+    img {
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+  .name {
+    margin-top: 16px;
+    margin-bottom: 22px;
+    color: #314659;
+    font-weight: bold;
+  }
+  .description {
+    color: #314559;
+  }
+  .ant-card-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
