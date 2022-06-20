@@ -1,0 +1,62 @@
+@media (max-width: 575px) {
+  .ant-form-item-label, .ant-form-item-control-wrapper {
+    width: inherit;
+  }
+}
+.MuiFormLabel-root-16 {
+  line-height: 1.5 !important;
+}
+.MuiOutlinedInput-input-31 {
+  padding-top: 21.5px !important;
+}
+.ant-form legend {
+  border-bottom: none;
+}
+.canvasContainer > div > div {
+  height: 100%;
+}
+.ant-card-body {
+  padding: 0;
+}
+.register-form {
+  p {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 16px;
+    border-top: 1px solid buttonface;
+    padding-top: 16px;
+  }
+  .register-form-reg {
+    margin-top: 16px;
+    margin-bottom: 16px !important;
+    display: flex;
+    justify-content: center;
+
+    button {
+      min-width: 168px;
+      height: 48px;
+    }
+  }
+  .register-form-login {
+    margin-top: 16px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    button {
+      min-width: 168px;
+      height: 48px;
+      background-color: #fff !important;
+      color: #1890ff !important;
+    }
+  }
+}
+
+
+form > div {
+  margin-bottom: 0px !important;
+}
+// @media screen and ( min-height: 895px ) {
+//     body {
+//         overflow: hidden;
+//     }
+//  }

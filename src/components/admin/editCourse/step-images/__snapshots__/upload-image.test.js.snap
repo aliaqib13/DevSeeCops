@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upload Image Should render successfully 1`] = `
+<div
+  className="upload-image"
+>
+  <Upload
+    accept=""
+    action=""
+    beforeUpload={[Function]}
+    className="avatar-uploader"
+    customRequest={[Function]}
+    data={Object {}}
+    disabled={false}
+    listType="picture-card"
+    multiple={false}
+    name="step"
+    onChange={[Function]}
+    showUploadList={false}
+    supportServerRender={true}
+    type="select"
+  >
+    <div>
+      <Icon
+        type="plus"
+      />
+      <div
+        className="ant-upload-text"
+      >
+        Upload Image
+      </div>
+    </div>
+  </Upload>
+  <div
+    className="resize-inputs"
+  >
+    <label>
+      Height
+    </label>
+    <InputNumber
+      disabled={true}
+      max={5000}
+      min={1}
+      onChange={[Function]}
+      size="small"
+      step={1}
+      value={1}
+    />
+    <label>
+      Width
+    </label>
+    <InputNumber
+      disabled={true}
+      max={5000}
+      min={1}
+      onChange={[Function]}
+      size="small"
+      step={1}
+      value={1}
+    />
+  </div>
+  <div
+    className="actions"
+  >
+    <Button
+      block={false}
+      disabled={true}
+      ghost={false}
+      htmlType="button"
+      loading={false}
+      onClick={[Function]}
+      size="small"
+    >
+      Preview
+    </Button>
+    <Button
+      block={false}
+      disabled={true}
+      ghost={false}
+      htmlType="button"
+      loading={false}
+      onClick={[Function]}
+      size="small"
+      type="primary"
+    >
+      Resize and Upload
+    </Button>
+    <Button
+      block={false}
+      disabled={true}
+      ghost={false}
+      htmlType="button"
+      loading={false}
+      onClick={[Function]}
+      size="small"
+      type="danger"
+    >
+      Clear
+    </Button>
+  </div>
+  <Modal
+    cancelText="Close"
+    confirmLoading={false}
+    maskTransitionName="fade"
+    okText="Resize and Upload"
+    okType="primary"
+    onCancel={[Function]}
+    onOk={[Function]}
+    title="Image Preview: 1 x 1"
+    transitionName="zoom"
+    visible={false}
+    width="70%"
+  >
+    <div
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <img
+        alt="step"
+        height={1}
+        src=""
+        style={
+          Object {
+            "maxWidth": "100%",
+          }
+        }
+        width={1}
+      />
+    </div>
+  </Modal>
+</div>
+`;

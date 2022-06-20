@@ -1,0 +1,77 @@
+.edit-course-labs {
+  button {
+    margin-right: 15px;
+  }
+}
+
+.lab-signature-modal {
+  .sig-canvas {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+  }
+}
+.delete-state {
+  float: right;
+  margin: 0 auto !important;
+}
+.state-block {
+  margin-top: 3%;
+}
+.check-block {
+  margin-top: 5%;
+}
+.space-left {
+  margin-left: 10px;
+}
+.small-text {
+  font-size: 10px;
+}
+.medium-text {
+  font-size: 12px;
+}
+.spaces-for-button{
+  position: absolute;
+  margin: 4%;
+}
+
+.left-space-for-button{
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 0.5%;
+}
+
+.delete-content-contains {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.delete-block {
+  float: right;
+  margin-top: 18%;
+}
+
+.move-arrow {
+  width: 15%;
+  padding-top: 3%;
+  font-size: 20px;
+  cursor: pointer;
+  color: #1890ff;
+  margin: 0 auto;
+}
+
+.arrow-deletion-button-content {
+  float: right;
+  margin-top: 5%
+}
+
+.config-block {
+  font-size: 18px;
+  i {
+    font-size: 20px;
+    cursor: pointer;
+    color: #1890ff;
+    margin-left: 5px
+  } 
+}

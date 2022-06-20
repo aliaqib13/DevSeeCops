@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateHintModal Should render successfully 1`] = `
+<Modal
+  confirmLoading={false}
+  footer={
+    Array [
+      <Button
+        block={false}
+        className="add-hint-btn"
+        ghost={false}
+        htmlType="button"
+        loading={false}
+        onClick={[Function]}
+        type="link"
+      >
+        <Icon
+          type="plus-circle"
+        />
+        Add message
+      </Button>,
+      <Button
+        block={false}
+        ghost={false}
+        htmlType="button"
+        loading={false}
+      >
+        Cancel
+      </Button>,
+      <Button
+        block={false}
+        ghost={false}
+        htmlType="button"
+        loading={false}
+        onClick={[Function]}
+        type="primary"
+      >
+        Add
+      </Button>,
+    ]
+  }
+  maskTransitionName="fade"
+  okType="primary"
+  title="Add Hint Message"
+  transitionName="zoom"
+  visible={false}
+  width={520}
+>
+  <Collapse
+    accordion={true}
+    bordered={true}
+    className="hint-collapse"
+    defaultActiveKey="0"
+    expandIconPosition="left"
+    key="0"
+    openAnimation={
+      Object {
+        "appear": [Function],
+        "enter": [Function],
+        "leave": [Function],
+      }
+    }
+  >
+    <CollapsePanel
+      header="Hint Message 1"
+      key="0"
+    >
+      <div
+        className="block-item-hint-message"
+        key="hint-0"
+      >
+        <CKEditor
+          config={Object {}}
+          data=""
+          onBeforeLoad={[Function]}
+          onChange={[Function]}
+          readOnly={false}
+          type="classic"
+        />
+      </div>
+    </CollapsePanel>
+  </Collapse>
+</Modal>
+`;

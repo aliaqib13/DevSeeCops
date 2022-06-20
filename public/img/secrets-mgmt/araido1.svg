@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="358.497" height="145.16" viewBox="0 0 358.497 145.16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#59c0af"/>
+      <stop offset="1" stop-color="#54a2c5"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_673" data-name="Group 673" transform="translate(-14495 -715)">
+    <g id="Group_672" data-name="Group 672">
+      <g id="Ellipse_68" data-name="Ellipse 68" transform="translate(14504 766)" fill="none" stroke="#27393d" stroke-width="2">
+        <circle cx="12" cy="12" r="12" stroke="none"/>
+        <circle cx="12" cy="12" r="11" fill="none"/>
+      </g>
+      <g id="Rectangle_156" data-name="Rectangle 156" transform="translate(14495 789)" fill="none" stroke="#27393d" stroke-width="2">
+        <path d="M10,0H32A10,10,0,0,1,42,10V24a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" stroke="none"/>
+        <path d="M10,1H32a9,9,0,0,1,9,9V22a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V10A9,9,0,0,1,10,1Z" fill="none"/>
+      </g>
+      <line id="Line_46" data-name="Line 46" y1="10" transform="translate(14505.5 802.5)" fill="none" stroke="#27393d" stroke-width="3"/>
+      <line id="Line_47" data-name="Line 47" y1="10" transform="translate(14526.5 802.5)" fill="none" stroke="#27393d" stroke-width="3"/>
+    </g>
+    <g id="Group_668" data-name="Group 668" transform="matrix(0.985, -0.174, 0.174, 0.985, 253.081, 2529.105)">
+      <path id="Polygon_9" data-name="Polygon 9" d="M3.5,0,7,7H0Z" transform="translate(14550 790) rotate(-90)" fill="#495e63"/>
+      <path id="Polygon_10" data-name="Polygon 10" d="M3.5,0,7,7H0Z" transform="translate(14640 783) rotate(90)" fill="#495e63"/>
+      <line id="Line_52" data-name="Line 52" x2="77" transform="translate(14556.5 786.5)" fill="none" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="Group_669" data-name="Group 669" transform="translate(1116.924 -4441.423) rotate(18)">
+      <path id="Polygon_10-2" data-name="Polygon 10" d="M3.5,0,7,7H0Z" transform="translate(14651.919 783) rotate(90)" fill="#495e63"/>
+      <line id="Line_52-2" data-name="Line 52" x2="88.919" transform="translate(14556.5 786.5)" fill="none" stroke="#000" stroke-width="1"/>
+    </g>
+    <path id="Polygon_11" data-name="Polygon 11" d="M36.5,0,73,73H0Z" transform="translate(14719 831) rotate(180)" fill="url(#linear-gradient)"/>
+    <g id="Ellips" transform="translate(-1)">
+      <g id="Ellipse_69" data-name="Ellipse 69" transform="translate(14817 738)" fill="none" stroke="#27393d" stroke-width="1">
+        <ellipse cx="17" cy="7.5" rx="17" ry="7.5" stroke="none"/>
+        <ellipse cx="17" cy="7.5" rx="16.5" ry="7" fill="none"/>
+      </g>
+      <path id="Path_1984" data-name="Path 1984" d="M14849.663,750.537v5.782s-14.712,8.333-32.806,0c-.439-.2-.432-.974-.467-2.381-.028-.916-.066-2.8,0-3.4" transform="translate(1.337)" fill="none" stroke="#27393d" stroke-width="1"/>
+      <path id="Path_1986" data-name="Path 1986" d="M14850.354,750.537v5.782s-15.017,8.333-33.486,0c-.448-.2-.44-.974-.477-2.381-.028-.916-.067-2.8,0-3.4" transform="translate(0.646 9)" fill="none" stroke="#27393d" stroke-width="1"/>
+      <path id="Path_1987" data-name="Path 1987" d="M14850.354,750.537v5.782s-15.017,8.333-33.486,0c-.448-.2-.44-.974-.477-2.381-.028-.916-.067-2.8,0-3.4" transform="translate(0.646 17)" fill="none" stroke="#27393d" stroke-width="1"/>
+    </g>
+    <path id="Path_1985" data-name="Path 1985" d="M14817,750.8" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Group_671" data-name="Group 671">
+      <g id="Rectangle_157" data-name="Rectangle 157" transform="translate(14814 815)" fill="none" stroke="#27393d" stroke-width="1">
+        <rect width="28" height="38" stroke="none"/>
+        <rect x="0.5" y="0.5" width="27" height="37" fill="none"/>
+      </g>
+      <g id="Group_670" data-name="Group 670">
+        <g id="Ellipse_70" data-name="Ellipse 70" transform="translate(14822 826)" fill="none" stroke="#27393d" stroke-width="1">
+          <circle cx="8.5" cy="8.5" r="8.5" stroke="none"/>
+          <circle cx="8.5" cy="8.5" r="8" fill="none"/>
+        </g>
+        <path id="Path_1988" data-name="Path 1988" d="M14836.808,839.818l13.491,8.5,2.494-3.855-14.4-8.39Z" fill="none" stroke="#27393d" stroke-width="1"/>
+        <path id="Path_1991" data-name="Path 1991" d="M14836.808,839.818l13.491,8.5,2.494-3.855-14.4-8.39Z" fill="#e4e4e4" stroke="#27393d" stroke-width="1"/>
+      </g>
+    </g>
+    <path id="Path_1989" data-name="Path 1989" d="M14814.5,815.443" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="araido" transform="translate(14559.56 618.42)">
+      <path id="Path_1990" data-name="Path 1990" d="M128.44,164.081l-5-8.5-5,8.5-1.459,2.479-.884,1.505-2.657,4.515h5.312l.886-1.5.884-1.5h7.606l-4.687-7.97-2.917,4.96h1.77l1.148-1.95,1.146,1.95.886,1.5h-5.835l-1.771,3.01H116.1l2.657-4.515,4.688-7.97,7.344,12.485h-3.542l.886,1.5h5.312Z" fill="#fff"/>
+    </g>
+    <text id="Audit_Request" data-name="Audit Request" transform="matrix(0.94, 0.342, -0.342, 0.94, 14753.119, 840.668)" fill="#495e63" font-size="14" font-family="OpenSans, Open Sans"><tspan x="-45.654" y="0">Audit Request</tspan></text>
+    <text id="Create_Credentials" data-name="Create
+Credentials" transform="translate(14763 730)" fill="#495e63" font-size="14" font-family="OpenSans, Open Sans"><tspan x="-21.492" y="0">Create</tspan><tspan x="-36.958" y="19">Credentials</tspan></text>
+    <g id="Group_675" data-name="Group 675">
+      <g id="Group_667" data-name="Group 667" transform="translate(2 -1)">
+        <path id="Polygon_9-2" data-name="Polygon 9" d="M3.5,0,7,7H0Z" transform="translate(14550 790) rotate(-90)" fill="#27393d"/>
+        <path id="Polygon_10-3" data-name="Polygon 10" d="M3.5,0,7,7H0Z" transform="translate(14640 783) rotate(90)" fill="#27393d"/>
+        <line id="Line_52-3" data-name="Line 52" x2="77" transform="translate(14556.5 786.5)" fill="none" stroke="#27393d" stroke-width="1"/>
+      </g>
+      <text id="Request_Credentials" data-name="Request
+Credentials" transform="translate(14597 747)" fill="#27393d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="-26.578" y="0">Request</tspan><tspan x="-36.958" y="19">Credentials</tspan></text>
+      <g id="Group_676" data-name="Group 676">
+        <g id="Group_674" data-name="Group 674">
+          <g id="Group_665" data-name="Group 665" transform="translate(-19 0.61)">
+            <g id="Group_664" data-name="Group 664" transform="translate(14572.338 812.39)">
+              <path id="Path_1983" data-name="Path 1983" d="M14572.413,810.965s-.17,11.734,0,11.635,4.932-2.575,4.932-2.575V809.034h-4.932Z" transform="translate(-14572.338 -809.034)" fill="none" stroke="#27393d" stroke-width="1"/>
+              <line id="Line_48" data-name="Line 48" y2="7.347" transform="translate(2.162 2.5)" fill="none" stroke="#27393d" stroke-width="1"/>
+            </g>
+          </g>
+          <g id="Polygon_8" data-name="Polygon 8" transform="translate(14550 801)" fill="none">
+            <path d="M6,0l6,4.584L9.708,12H2.292L0,4.584Z" stroke="none"/>
+            <path d="M 6 1.258402824401855 L 1.161361694335938 4.954791069030762 L 3.029437065124512 11 L 8.970562934875488 11 L 10.83863830566406 4.954791069030762 L 6 1.258402824401855 M 6 0 L 12 4.583590030670166 L 9.708200454711914 12 L 2.291799545288086 12 L 0 4.583590030670166 L 6 0 Z" stroke="none" fill="#27393d"/>
+          </g>
+          <g id="Group_666" data-name="Group 666" transform="translate(-18.5 2)">
+            <line id="Line_49" data-name="Line 49" y2="3" transform="translate(14572.5 804.5)" fill="none" stroke="#27393d" stroke-width="1"/>
+            <line id="Line_51" data-name="Line 51" y2="3" transform="translate(14576.5 804.5)" fill="none" stroke="#27393d" stroke-width="1"/>
+            <line id="Line_50" data-name="Line 50" y2="5" transform="translate(14574.5 803.5)" fill="none" stroke="#27393d" stroke-width="1"/>
+          </g>
+        </g>
+        <text id="Credentials" transform="translate(14606 819)" fill="#27393d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="-36.958" y="0">Credentials</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

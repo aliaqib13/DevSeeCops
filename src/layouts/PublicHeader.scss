@@ -1,0 +1,36 @@
+.publicHeader {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, rgb(83, 150, 209), rgb(91, 200, 171));
+  padding: 0 20px;
+  transition: width 0.2s;
+  position: fixed;
+  z-index: 10;
+  .rightContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 20px;
+  }
+}
+
+.triggerContainer .trigger {
+  color: #fff;
+  font-size: 20px;
+}
+
+.authContainer{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
+  .loginContainer {
+    margin-right: 20px;
+  }
+  a {
+    color: #FFFFFF;
+  }
+}
+

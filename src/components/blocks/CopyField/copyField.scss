@@ -1,0 +1,48 @@
+.copy-field {
+  border: 1px solid #ececec;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  padding: 15px 42px 15px 10px;
+  position: relative;
+  margin-bottom: 25px;
+  .copy-button-container {
+    position: absolute;
+    right: 1px;
+    top: 14px;
+    .copy-button {
+      border: none;
+      background: none;
+      outline: none;
+      cursor: pointer;
+      color: #1890ff;
+      &:hover {
+        color: #40a9ff;
+      }
+    }
+  }
+  .command {
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: block;
+        &-wrapper {
+      white-space: nowrap;
+    }
+  }
+  .command::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.copy-field.multiline {
+  padding: 20px;
+  .copy-button-container {
+    right: 1px;
+    top: 3px;
+  }
+  .command {
+    &-wrapper {
+      white-space: normal;
+    }
+  }
+}

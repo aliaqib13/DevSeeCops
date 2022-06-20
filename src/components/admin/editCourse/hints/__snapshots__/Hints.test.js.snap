@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hints Should render successfully 1`] = `
+<div
+  className="hints-container"
+>
+  <div
+    className="hints-list"
+  >
+    <Button
+      block={false}
+      className="add-hint"
+      ghost={false}
+      htmlType="button"
+      loading={false}
+      onClick={[Function]}
+    >
+       Add Hint
+    </Button>
+    <withStore(Table)
+      dataSource={
+        Array [
+          Object {
+            "course_id": 1,
+            "id": 5,
+            "message": "<p>Test Hint</p>",
+          },
+        ]
+      }
+      pagination={
+        Object {
+          "pageSize": 10,
+          "position": "bottom",
+        }
+      }
+      rowKey={[Function]}
+    >
+      <Column
+        key="message"
+        render={[Function]}
+        title="Hint Message "
+      />
+      <Column
+        key="actions"
+        render={[Function]}
+        title="Actions"
+        width={200}
+      />
+    </withStore(Table)>
+  </div>
+</div>
+`;

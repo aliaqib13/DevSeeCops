@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseUsersDrawer Should render successfully 1`] = `
+<withConfigConsumer(Drawer)
+  className="course-users-drawer"
+  onClose={[MockFunction]}
+  placement="right"
+  switchScrollingEffect={false}
+  title="Users"
+  visible={true}
+  width={550}
+>
+  <AutoComplete
+    choiceTransitionName="zoom"
+    dataSource={Array []}
+    filterOption={false}
+    onSearch={[Function]}
+    onSelect={[Function]}
+    optionLabelProp="children"
+    placeholder="add by email"
+    showSearch={false}
+    size="large"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+    transitionName="slide-up"
+    value=""
+  >
+    <Input
+      suffix={
+        <Button
+          block={false}
+          ghost={false}
+          htmlType="button"
+          loading={false}
+          onClick={[Function]}
+          size="large"
+          style={
+            Object {
+              "marginRight": -12,
+            }
+          }
+          type="primary"
+        >
+          <Icon
+            type="user-add"
+          />
+        </Button>
+      }
+      type="text"
+    />
+  </AutoComplete>
+  <withStore(Table)
+    dataSource={
+      Array [
+        Object {
+          "activated": 1,
+          "certificate_name": null,
+          "coordinator": null,
+          "created_at": "2020-05-25 16:35:42",
+          "email": "henry@araido.io",
+          "firstname": "Henry",
+          "id": 3,
+          "lastname": "Tovmasyan",
+          "updated_at": "2020-05-25 16:35:42",
+        },
+        Object {
+          "activated": 1,
+          "certificate_name": null,
+          "coordinator": null,
+          "created_at": "2020-05-25 16:35:42",
+          "email": "george@araido.io",
+          "firstname": "George",
+          "id": 4,
+          "lastname": "Aramyan",
+          "updated_at": "2020-05-25 16:35:42",
+        },
+      ]
+    }
+    pagination={
+      Object {
+        "current": 1,
+        "defaultCurrent": 1,
+        "onChange": [Function],
+        "pageSize": 10,
+        "position": "top",
+        "total": 8,
+      }
+    }
+    rowClassName="drawer-users-row"
+    rowKey={[Function]}
+    size="lg"
+  >
+    <Column
+      dataIndex="email"
+      key="email"
+      title={[Function]}
+    />
+    <Column
+      key="actions"
+      render={[Function]}
+      title="actions"
+    />
+  </withStore(Table)>
+</withConfigConsumer(Drawer)>
+`;

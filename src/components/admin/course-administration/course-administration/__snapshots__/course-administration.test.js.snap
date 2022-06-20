@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseAdministration Should render course-users container successfully 1`] = `
+<div
+  className="course-users-container"
+>
+  <div>
+    <Title>
+      Course Administration
+    </Title>
+    <div>
+      <Button
+        block={false}
+        ghost={false}
+        htmlType="button"
+        loading={false}
+        onClick={[Function]}
+        type="default"
+      >
+        Add Course
+        <Icon
+          type="plus-circle"
+        />
+      </Button>
+      <Button
+        block={false}
+        ghost={false}
+        htmlType="button"
+        loading={false}
+        onClick={[Function]}
+        type="default"
+      >
+        Import Course
+      </Button>
+    </div>
+  </div>
+  <div>
+    <withStore(Table)
+      dataSource={
+        Array [
+          Object {
+            "__meta__": Object {
+              "activeCourses_count": 5,
+            },
+            "category": Object {
+              "created_at": null,
+              "id": 1,
+              "name": "Secrets Management",
+              "updated_at": null,
+            },
+            "category_id": 1,
+            "id": 1,
+            "image": "/img/sm.jpg",
+            "status": "Production",
+            "title": "Secrets Management for your applications",
+          },
+          Object {
+            "__meta__": Object {
+              "activeCourses_count": 1,
+            },
+            "category": Object {
+              "created_at": null,
+              "id": 2,
+              "name": "Container Security",
+              "updated_at": null,
+            },
+            "category_id": 2,
+            "id": 4,
+            "image": "/img/test.jpg",
+            "status": "Production",
+            "title": "Container Security in CI/CD",
+          },
+        ]
+      }
+      loading={false}
+      pagination={false}
+      rowKey={[Function]}
+      size="lg"
+    >
+      <Column
+        className="table-image-row"
+        key="image"
+        render={[Function]}
+        title="Image"
+      />
+      <Column
+        key="title"
+        render={[Function]}
+        title="Title"
+      />
+      <Column
+        dataIndex="category.name"
+        key="category"
+        title="Category"
+      />
+      <Column
+        dataIndex="__meta__.activeCourses_count"
+        key="count"
+        title="Number of Users"
+      />
+      <Column
+        key="actions"
+        render={[Function]}
+        title="Actions"
+      />
+    </withStore(Table)>
+  </div>
+  <AddCourseModal
+    addNewCategory={[Function]}
+    categories={
+      Array [
+        Object {
+          "created_at": null,
+          "id": 1,
+          "name": "Secrets Management",
+          "updated_at": null,
+        },
+        Object {
+          "created_at": null,
+          "id": 2,
+          "name": "Container Security",
+          "updated_at": null,
+        },
+        Object {
+          "created_at": null,
+          "id": 3,
+          "name": "Application Security",
+          "updated_at": null,
+        },
+        Object {
+          "created_at": null,
+          "id": 4,
+          "name": "ExamplePost Management",
+          "updated_at": null,
+        },
+      ]
+    }
+    courseTypes={
+      Array [
+        "introduction",
+        "standard",
+        "exam",
+      ]
+    }
+    deleteCategory={[Function]}
+    onClose={[Function]}
+    visible={false}
+  />
+  <UploadCourseModal
+    onClose={[Function]}
+    visible={false}
+  />
+  <CourseUsersDrawer
+    getCourseUsers={[MockFunction]}
+    onClose={[Function]}
+    selectedCourse={0}
+    showUserLoader={false}
+    visible={false}
+  />
+</div>
+`;
