@@ -1,0 +1,3 @@
+export const FETCH_QUIZZES = 'FETCH_QUIZZES';
+export const SAVE_ANSWERS = 'SAVE_ANSWERS';
+export const CLEAR_QUIZ_STORE = 'CLEAR_QUIZ_STORE';

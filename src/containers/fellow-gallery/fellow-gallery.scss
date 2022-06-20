@@ -1,0 +1,114 @@
+.fellow-gallery-wrapper {
+  background-image: linear-gradient(to right, #5396d1, #5bc8ab);
+  min-height: calc(100vh - 160px);
+  margin: -20px;
+  padding: 20px;
+}
+.fellow-gallery {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  margin: -20px;
+  padding: 20px;
+  background-image: url("/img/fellow-gallery/desktop-background.png");
+  background-size: 100%;
+  background-position: center -11vw;
+  min-height: calc(100vh - 160px);
+  @media(max-width: 2500px) {
+    background-position: center -10vw;
+  }
+  @media(max-width: 1900px) {
+    background-position: center -8vw;
+  }
+  @media(max-width: 1400px) {
+    background-position: center -4vw;
+  }
+  @media(max-width: 1300px) {
+    background-image: url("/img/fellow-gallery/tablet-background.png");
+    background-position: center -12vw;
+  }
+  @media(max-width: 1100px) {
+    background-position: center -8vw;
+  }
+  @media(max-width: 700px) {
+    background-position: center -1vw;
+  }
+  @media(max-width: 576px) {
+    background-image: url("/img/fellow-gallery/mobile-background.png");
+    background-position: center -28vw;
+  }
+  @media(max-width: 564px) {
+    background-position: center -22vw;
+  }
+  @media(max-width: 500px) {
+    background-position: center -18vw;
+  }
+  @media(max-width: 480px) {
+    background-position: center -12vw;
+  }
+  @media(max-width: 425px) {
+    background-position: center -10vw;
+  }
+  @media(max-width: 421px) {
+    background-position: center 4vw;
+  }
+  @media(max-width: 395px) {
+    background-position: center 4vw;
+  }
+  @media(max-width: 380px) {
+    background-position: center 8vw;
+  }
+  @media(max-width: 360px) {
+    background-position: center 12vw;
+  }
+  .title {
+    position: relative;
+    z-index: 1;
+    margin: 20px auto 60px;
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    max-width: 520px;
+  }
+  .superman-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    @media(max-width: 870px) {
+      left: -60px;
+    }
+    @media(max-width: 670px) {
+      top: 27px;
+    }
+    @media(max-width: 576px) {
+      display: none;
+    }
+  }
+  .ant-carousel .slick-initialized.certificate-carousel .slick-prev:hover,
+  .ant-carousel .slick-initialized.certificate-carousel .slick-next:hover {
+    color: white
+  }
+  .ant-carousel .slick-initialized.certificate-carousel .slick-prev,
+  .ant-carousel .slick-initialized.certificate-carousel .slick-next {
+    color: white;
+  }
+  .fellow-gallery-carousel {
+    position: relative;
+    margin-bottom: 280px;
+    @media(max-width: 576px) {
+      margin-bottom: 120px;
+    }
+    .superman-2 {
+      position: absolute;
+      bottom: -226px;
+      right: 0;
+      width: 228px;
+      height: 249px;
+      @media(max-width: 576px) {
+        width: 180px;
+        right: -50px;
+      }
+    }
+  }
+}

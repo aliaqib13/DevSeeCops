@@ -1,0 +1,21 @@
+.course-users-container, .course-access-container, .course-insights-container {
+  .header-buttons {
+    button {
+      margin-right: 10px;
+    }
+  }
+  .table-image-row, .table-image-row-insights {
+    width: 60px;
+    img {
+      max-height: 30px;
+    }
+  }
+}
+.requestActionsContainer {
+  .request-action-buttons button {
+    margin-left: 10px;
+  }
+}
+.message {
+  margin-top: 200px;
+}

@@ -1,0 +1,4 @@
+export const FETCH_EVENTS = 'FETCH_EVENTS';
+export const GET_EVENT = 'GET_EVENT';
+export const FETCH_PUBLIC_EVENTS = 'FETCH_PUBLIC_EVENTS';
+export const GET_EVENT_BY_ID = 'GET_EVENT_BY_ID';

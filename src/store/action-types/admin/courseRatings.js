@@ -1,0 +1,4 @@
+export const FETCH_RATINGS = 'FETCH_RATINGS';
+export const ADD_RATING = 'ADD_RATING';
+export const UPDATE_RATING = 'UPDATE_RATING';
+export const DELETE_RATING = 'DELETE_RATING';

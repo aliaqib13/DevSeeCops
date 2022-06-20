@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadCourseModal Should render successfully 1`] = `
+<Modal
+  confirmLoading={false}
+  destroyOnClose={true}
+  footer={
+    Array [
+      <Button
+        block={false}
+        ghost={false}
+        htmlType="button"
+        loading={false}
+        onClick={[Function]}
+      >
+        Close
+      </Button>,
+      <Button
+        block={false}
+        disabled={true}
+        ghost={false}
+        htmlType="button"
+        loading={false}
+        onClick={[Function]}
+        style={
+          Object {
+            "marginTop": 16,
+          }
+        }
+        type="primary"
+      >
+        Start Upload
+      </Button>,
+    ]
+  }
+  maskTransitionName="fade"
+  okType="primary"
+  onCancel={[Function]}
+  title="Import Course from JSON"
+  transitionName="zoom"
+  visible={false}
+  width={520}
+>
+  <Upload
+    accept=""
+    action=""
+    beforeUpload={[Function]}
+    className=""
+    data={Object {}}
+    disabled={false}
+    fileList={Array []}
+    listType="text"
+    multiple={false}
+    onRemove={[Function]}
+    showUploadList={true}
+    supportServerRender={true}
+    type="select"
+  >
+    <Button
+      block={false}
+      ghost={false}
+      htmlType="button"
+      loading={false}
+    >
+      <Icon
+        type="upload"
+      />
+       
+      Select File
+    </Button>
+  </Upload>
+</Modal>
+`;

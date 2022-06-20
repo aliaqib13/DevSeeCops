@@ -1,0 +1,413 @@
+.chapters-container{
+  min-height: calc(100vh - 160px);
+  @media(max-width: 576px) {
+    padding: 16px;
+    margin: -40px -36px -20px;
+    background: white;
+  }
+  .has-cursor{
+    cursor: pointer;
+  }
+  .mobile-navigation {
+    background: #eeeeee;
+    border-radius: 0;
+    margin: 16px 0 28px;
+    display: none;
+    @media(max-width: 768px) {
+      display: block;
+    }
+    .ant-collapse-item {
+      border-bottom: none;
+    }
+    .ant-collapse-content {
+      .ant-timeline {
+        color: #022637;
+      }
+    }
+    .ant-collapse-header {
+      text-align: right;
+      .anticon-bars {
+        color: #0d1a26;
+        font-size: 28px;
+      }
+    }
+  }
+  .steps-action {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  .ant-steps-item-icon {
+    background-image: linear-gradient(to right, #5396d1, #5bc8ab);
+  }
+  .ant-steps-item-icon .ant-steps-icon {
+    color: #fff !important;
+  }
+  .ant-steps-item-wait .ant-steps-item-icon {
+    background: #E3E5E6 !important;
+    border: 1px solid #E3E5E6;
+    width: 24px!important;
+    height: 24px!important;
+    border-radius: 50%!important;
+    span{
+      font-size: 15px;
+      line-height: 18px!important;
+      color: #27393D !important;
+      font-weight: bold;
+    }
+  }
+
+  .ant-steps-item-finish .ant-steps-item-icon , .ant-steps-item-process .ant-steps-item-icon {
+    background-image: linear-gradient(to right, #5396d1, #5bc8ab) !important;
+    width: 24px!important;
+    height: 24px!important;
+    border-radius: 50%!important;
+    span{
+      font-size: 15px;
+      line-height: 18px!important;
+    }
+  }
+  .ant-steps-item-finish .ant-steps-item-icon span {
+    color: #fff !important;
+    font-weight: bold;
+  }
+  .steps-action .buttons {
+    border-radius: 4px;
+    //display: flex;
+    border-color: #5bc7ab !important;
+    align-items: center;
+    color: #5bc7ab;
+    width: 102px;
+    height: 30px;
+  }
+  .steps-action .handson {
+    margin-left: 10px;
+    border-radius: 4px;
+    border-color: #5bc7ab !important;
+    align-items: center;
+    color: #5bc7ab;
+    height: 30px;
+  }
+  .steps-action .buttons span {
+    margin: auto;
+  }
+  .steps-action .stepsCount {
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+    font-size: 14px;
+    color: #5bc7ab;
+  }
+  .steps-action .previousButton {
+    border: 1px solid #5bc7ab;
+    border-radius: 4px;
+    color: #5bc7ab;
+    width: 102px;
+    height: 30px;
+  }
+  .stepsContainer {
+    padding: 30px 11px;
+    border-right: 1px solid buttonface;
+    width: 220px;
+    flex-shrink: 0;
+    display: block;
+    @media(max-width: 768px) {
+      display: none;
+    }
+    .step-item {
+      padding-bottom: 15px;
+    }
+  }
+  .stepsRow {
+    position: relative;
+    border-top: 1px solid buttonface;
+    display: flex;
+  }
+  .contentCol {
+    width: calc(100% - 220px);
+    padding: 34px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    @media(max-width: 425px) {
+      padding: 34px 0;
+    }
+  }
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .imageContainer img {
+    align-self: center;
+  }
+  // .heartIconContainer
+  .warningIconContainer {
+    position: relative;
+    height: 100%;
+    background: #ffa32c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    .textContainer {
+      padding: 12px 16px 12px 40px;
+      color: #fff;
+      p {
+        margin-top: 0px;
+      }
+    }
+    h4 {
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    }
+  }
+  // .heartIcon
+  .warningIcon, .infoIcon {
+    position: absolute;
+    margin: auto;
+    left: -20px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background: #E3E5E6;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .steps-content h4.title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  }
+  .steps-content p {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    margin-top: 32px;
+  }
+  .steps-content ul li {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  }
+  .infinityContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .steps-content .isometricImageContainer {
+    display: flex;
+    justify-content: center;
+    height: 380px;
+    margin-bottom: 100px;
+  }
+  .steps-content .isometricImageContainer img {
+    width: 100%;
+  }
+  .steps-content .imagesContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .steps-content .imagesContainer img {
+    align-self: center;
+    width: 482px;
+    min-width: 200px;
+    margin-top: 16px;
+    margin-right: 16px;
+  }
+  .errorModalContainer img {
+    width: 100%;
+  }
+  .steps-content .pipelineContainer {
+    margin-top: 50px;
+    margin-bottom: 64px;
+  }
+  .steps-content .pipelineContainer img {
+    width: 100%;
+  }
+  .infinityContainer img {
+    width: 100%;
+  }
+  .steps-content .notebookContainer img {
+    width: 26%;
+  }
+  .handsImageContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .infinityDesc {
+    max-width: 500px;
+    width: 100%;
+    height: 236px;
+    display: flex;
+    position: relative;
+    background-image: linear-gradient(to right, #5396d1, #5bc8ab);
+    align-items: flex-end;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px #000;
+    margin-bottom: 14px;
+  }
+  .infinityComponentContainer {
+    margin-bottom: 64px;
+  }
+  .infinityDesc div {
+    position: absolute;
+    height: 84%;
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    font-size: 16px;
+    overflow: auto;
+    border: 1px solid #5bc8ab;
+  }
+  .infinityDesc span {
+    position: absolute;
+    left: 16px;
+    top: 4px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .infinityImageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .deployPath, .releasePath, .codePath, .planPath, .planPath2, .buildPath, .testPath, .monitorPath, .operatePath {
+    opacity: .8 !important;
+  }
+  .deployPath:hover, .releasePath:hover, .codePath:hover, .planPath:hover, .planPath2:hover,
+  .buildPath:hover, .testPath:hover, .monitorPath:hover, .operatePath:hover {
+    opacity: 1 !important;
+  }
+  .infoIcon {
+    top: 132px;
+    width: 40px;
+    height: 40px;
+    left: -20px;
+  }
+  .courseTitleContainer {
+    background-image: linear-gradient(to right, #5396d1, #5bc8ab);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    .lab-name {
+      color: #ffffff;
+      margin-bottom: 8px;
+      font-size: 30px;
+      text-align: center;
+      @media(max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+    .lab-description {
+      color: #ffffff;
+      text-align: center;
+      @media(max-width: 768px) {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+  }
+  .stepNameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 3%;
+  }
+  .objectivesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+  .titleComponentContainer, .introductionComponentContainer {
+    margin-bottom: 64px;
+  }
+  .infoIconCont {
+    background: #5bc8ab;
+    color: #fff;
+    padding: 32px;
+    position: relative;
+    margin-top: 64px;
+  }
+  .keyIconTitleContainer {
+    // position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  .keyIconTitleContainer h4 {
+    text-align: right;
+    width: 467px;
+    font-size: 30px !important;
+  }
+  .keyTextContainer {
+    // height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    position: relative;
+  }
+  .keyTextContainer h4 {
+    font-size: 30px !important;
+  }
+  .keyTextContainer .keyIconContainer {
+    right: 91px;
+    top: 11px;
+  }
+  .araidoFirstImageContainer {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0 16px 0;
+  }
+  .araidoSecondImageContainer {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0 16px 0;
+  }
+  .objectivesContainer .stepNameContainer .title {
+    font-size: 44px;
+    margin-bottom: 10px;
+  }
+  .notebookTitleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .notebookTitleContainer img {
+    width: 150px;
+  }
+  .arrowTitleContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  .infinityImageContainer svg {
+    width: 100% !important;
+  }
+  .top-control{
+    position: absolute;
+    right: 0;
+    top:5px;
+    z-index: 1;
+    .ant-btn, .ant-btn:hover, .ant-btn:focus {
+      color: #5bc7ab;
+      border-color: #5bc7ab;
+    }
+    .ant-btn[disabled] {
+      color: rgba(0,0,0,0.25);
+      border-color: #d9d9d9;
+    }
+  }
+  .ant-typography {
+    font-size: 18px;
+  }
+
+}

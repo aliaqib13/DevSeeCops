@@ -1,0 +1,18 @@
+.admin-manager-container {
+  .manager-body {
+    &-cards {
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 0;
+      &-item {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid;
+        width: 30%;
+        padding: 20px;
+        font-size: 20px;
+        border-radius: 4px;
+      }
+    }
+  }
+}

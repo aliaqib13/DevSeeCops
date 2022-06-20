@@ -1,0 +1,16 @@
+.user-statistics-container {
+  .header-buttons {
+    button {
+      margin-right: 10px;
+    }
+  }
+  .table-image-row, .table-image-row-insights {
+    width: 60px;
+    img {
+      max-height: 30px;
+    }
+  }
+  .go-back-button {
+    margin-top: 20px;
+  }
+}

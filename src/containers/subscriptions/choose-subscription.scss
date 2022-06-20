@@ -1,0 +1,88 @@
+.choose-subscription-container{
+    .page-title{
+        h1{
+            color:#111111;
+            margin-bottom: 50px ;
+            @media (max-width: 576px) {
+                font-size: 28px;
+
+              }
+        }
+    }
+
+    .subscriptions-container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+ 
+        .subscription-card{
+            flex: 1 ;
+            text-align: center;
+            margin-bottom: 50px ;
+
+            h2{
+                font-weight: bold;
+            }
+            
+            .card-body{
+                background-color: #f1f1f1;
+                border-radius: 4px;
+                width: 250px;
+                margin: 0 auto;
+                min-height: 350px;
+                position: relative;
+
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-bottom: 24px;
+
+                .triangle-arrow{
+                    width: 0;
+                    height: 0;
+                    border-width: 1px 1px 0 1px;
+                    border-left: 110px solid transparent;
+                    border-right: 110px solid transparent;
+                    border-top: 120px solid #E3E3E3;
+
+                    position: absolute;
+                    margin: 0 auto;
+                    top: 0;
+
+                    &.bronze{
+                        border-top-color:  #A16901;
+                    }
+
+                    &.silver{
+                        border-top-color: #C0C0C0;
+                    }
+
+                    &.gold{
+                        border-top-color:  #FFD700;
+                    }
+                }
+
+                .tokens-amount{
+                    margin-top: 150px;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                
+                .tokens-cost{
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+
+                .select-button{
+                    width: 50%;
+
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }  
+        }
+    }
+}

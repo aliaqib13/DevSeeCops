@@ -1,0 +1,36 @@
+
+.grey-box-container {
+  height: 100%;
+  background: #E3E5E6;
+  padding: 20px 32px;
+  margin: 16px 0;
+  h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .content {
+    font-size: 14px;
+  }
+  p {
+    font-size: 16px;
+    margin: 16px 0;
+  }
+  .title-icon {
+    position: relative;
+  }
+  .gradient-icon {
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(to right, #5396d1, #5bc8ab);
+    border-radius: 50%;
+    position: absolute;
+    left: -50px;
+    top: calc(50% - 20px);
+    @media(max-width: 425px) {
+      left: -45px;
+    }
+  }
+}

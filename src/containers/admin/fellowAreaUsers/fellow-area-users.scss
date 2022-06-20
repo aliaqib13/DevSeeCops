@@ -1,0 +1,16 @@
+.admin-fellow-area {
+  .fellow-user-card {
+    width: 240px;
+    height: 100%;
+    background-color: #f8f8f8;
+    text-align: center;
+    line-height: 23px;
+    padding: 30px 20px 28px;
+
+    .ant-card-body {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

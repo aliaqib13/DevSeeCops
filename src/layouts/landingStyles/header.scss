@@ -1,0 +1,175 @@
+//@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swa");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.global-container {
+  position: relative;
+  overflow-y: hidden;
+
+  nav.navbar {
+    height: 136px;
+    background: #004787 !important;
+  }
+
+  p.fusion-textcolor-highlight {
+    padding-right: 8px;
+  }
+
+  span.menu-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-style: normal;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+
+  span.menu-text.fusion-button.button-default.button-small {
+    background: #2aa5f9;
+    color: #ffffff;
+    border-color: #ffffff;
+    padding: 9px 24px;
+    border-radius: 20px;
+  }
+
+  span.menu-text:hover {
+    color: #ea5b0c;
+  }
+
+  @media screen and (max-width: 1200px) {
+
+    p.fusion-textcolor-highlight {
+      padding-right: 0px;
+    }
+
+    span.menu-text {
+      font-size: 13px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    span.menu-text.fusion-button.button-default.button-small {
+      background: #2aa5f9;
+      color: #ffffff;
+      border-color: #ffffff;
+      padding: 9px 24px;
+      border-radius: 20px;
+    }
+  }
+
+  .navbar-brand:hover {
+    cursor: pointer;
+  }
+
+  div#exampleModal {
+    width: 100%;
+    background: #004787 !important;
+    text-align: center;
+  }
+
+  button.navbar-toggler:focus {
+    outline: none;
+  }
+
+  .modal-dialog ul {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 45%);
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  button.close {
+    right: 20px;
+    top: 20px;
+    position: absolute;
+  }
+
+  @media screen and (min-width: 992px) {
+    .modal {
+      display: none !important;
+    }
+  }
+
+  span.menu-text.fusion-button.button-default.button-small:hover, .read-more:hover, button.fusion-button-text:hover {
+    background: #68e0cf;
+    color: #ffffff;
+    border-color: #f77168;
+    transition: .5s;
+  }
+
+  *:hover {
+    transition: .4s;
+  }
+
+  a:hover {
+    text-decoration: none !important;
+  }
+
+  button.navbar-toggler {
+    border: none;
+  }
+
+  .navbar-collapse.collapse.show {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #004787;
+    left: 0;
+    text-align: center;
+  }
+
+  .modal-backdrop.fade.show {
+    display: none;
+    /* z-index: 0; */
+  }
+
+  p.fusion-textcolor-highlight.nav-link span:hover {
+    color: #ea5b0c;
+    transition: .5s;
+  }
+
+
+  p.fusion-button.button-flat.fusion-button-default-size.button-custom.button-2.fusion-button-span-yes.fusion-button-default-type:hover {
+    background: #68e0cf;
+  }
+
+  p.homepage:hover {
+    color: #004787 !important;
+    text-decoration: none;
+  }
+
+  .fusion-text.fusion-text-9 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+  }
+
+
+}
+ul.ant-dropdown-menu {
+  background: #2aa5f9;
+
+  li.ant-dropdown-menu-item {
+    &:hover {
+      background: none;
+    }
+
+    a {
+      color: #fff;
+
+      &:hover {
+        text-decoration: none;
+        color: #ea5b0c;
+      }
+    }
+  }
+}
+.fixed-top {
+  z-index: 2!important;
+}

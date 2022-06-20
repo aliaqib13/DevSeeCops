@@ -1,0 +1,148 @@
+//.tutorial {
+//  margin: -20px;
+//  ul {
+//    margin-left: 10px;
+//    .faq-answer {
+//      margin-left: 10px;
+//      margin-bottom: 15px;
+//    }
+//    .faq-question {
+//      margin-bottom: 3px;
+//      font-style: italic;
+//    }
+//  }
+//  .tutorial-heading {
+//    display: flex;
+//    justify-content: center;
+//    height: 110px;
+//    align-items: center;
+//  }
+//  .main-title {
+//    font-size: 24px;
+//    text-align: center;
+//    font-weight: bold;
+//    text-transform: uppercase;
+//    margin-bottom: 0;
+//    color: #ffffff;
+//  }
+//  .list-title {
+//    font-size: 15px;
+//    display: inline-block;
+//    margin-bottom: 5px;
+//    &:first-of-type {
+//      margin-top: 10px;
+//    }
+//  }
+//  .tutorial-content {
+//    background-image: url("/img/policy-background.png");
+//    background-repeat: repeat-y;
+//    background-size: 100%;
+//    padding: 0 70px 35px;
+//
+//    @media(max-width: 992px) {
+//      padding: 0 50px 35px;
+//    }
+//    @media(max-width: 576px) {
+//      padding: 0 15px 35px;
+//    }
+//    .tutorial-card {
+//      background-color: #ffffff;
+//      padding: 24px 40px;
+//      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+//      margin-bottom: 24px;
+//      @media(max-width: 768px) {
+//        padding: 24px;
+//      }
+//      @media(max-width: 576px) {
+//        padding: 24px 15px;
+//      }
+//      div.ant-typography {
+//        color: #314659;
+//        strong {
+//          color: #314659;
+//        }
+//      }
+//      p {
+//        margin-bottom: 5px;
+//      }
+//      h4.ant-typography, h3.ant-typography {
+//        color: #0d1a26;
+//      }
+//      h4.ant-typography {
+//        font-size: 16px;
+//      }
+//      h3.ant-typography {
+//        font-size: 20px;
+//      }
+//    }
+//
+//  }
+//}
+.helpContainer {
+  &-wrapper {
+    display: flex;
+  }
+  .ant-steps-item-icon {
+    text-align: center;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .ant-steps-icon {
+      font-size: 12px !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .ant-steps-item-content {
+    cursor: pointer;
+  }
+  .stepsContainer {
+    padding: 30px 11px;
+    border-right: 1px solid buttonface;
+    width: 220px;
+    flex-shrink: 0;
+    display: block;
+    .step-item {
+      padding-bottom: 15px;
+      cursor: pointer;
+    }
+  }
+  .contentContainer {
+    flex-grow: 1;
+    width: calc(100% - 220px);
+    padding: 34px 24px 24px;
+    .steps-action {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row-reverse;
+      .nav-button {
+        padding: 0;
+        border-radius: 4px;
+        display: flex;
+        border-color: #5bc7ab;
+        align-items: center;
+        color: #5bc7ab;
+        width: 102px;
+        height: 30px;
+        background-color: white;
+        span {
+          margin: 0 auto;
+        }
+        &[disabled] {
+          color: #d9d9d9;
+          border-color: #d9d9d9;
+        }
+      }
+      .stepsCount {
+        display: flex;
+        align-items: center;
+        margin: 0 12px;
+        font-size: 14px;
+        color: #5bc7ab;
+      }
+    }
+  }
+}
