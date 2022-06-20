@@ -1,0 +1,39 @@
+.lab-steps-list {
+  button {
+    margin-right: 3px;
+  }
+
+  .change-pos-btn {
+    background-color: #59c0ae;
+    border: 1px solid #59c0ae;
+  }
+}
+.btn-save{
+  background: #59C0AF 0% 0% no-repeat padding-box;
+  margin-right: 16px;
+  width: 168px;
+  height: 48px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
+.btn-save:hover{
+  background: #59C0AF 0% 0% no-repeat padding-box;
+}
+.btn-primary{
+  width: 168px;
+  height: 48px;
+  border-radius: 5px;
+}
+.restore-step-btn {
+  background-color: #59c0ae;
+  border: 1px solid #59c0ae;
+}
+.restore-step-btn:hover {
+  background: #59C0AF 0% 0% no-repeat padding-box;
+  border: 1px solid #59c0ae;
+}
+
+.favorite-steps-btn {
+  margin-right: 2%;
+}

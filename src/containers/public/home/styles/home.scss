@@ -1,0 +1,1000 @@
+//@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swa");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+//@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+.global-container {
+  position: relative;
+  overflow-y: hidden;
+
+  * {
+    transition: 1s;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  #news {
+    p {
+      button {
+        width: 30px;
+        height: 30px;
+        opacity: .8;
+        border: none;
+        background-color: rgba(42, 165, 249, 1);
+        position: absolute;
+        outline: none;
+      }
+    }
+  }
+
+  .ant-carousel {
+    .slick-slide {
+      img.content-image {
+        display: block;
+        height: 360px;
+        object-fit: cover;
+        object-position: center;
+        background: #fff;
+      }
+    }
+  }
+  .carousel-control-prev, .carousel-control-next {
+    opacity: unset;
+  }
+
+  .carousel-control-next button {
+    right: 0;
+  }
+
+  .carousel-control-prev button {
+    left: 0;
+  }
+
+  ul.slick-dots.slick-dots-bottom li button {
+    width: 13px !important;
+    height: 12px;
+    border-radius: 50%;
+    margin-top: -6px;
+    background: #000;
+    margin-right: 2px;
+  }
+
+  .intro_img {
+    transition: 1s;
+  }
+
+  .intro_img:hover {
+    transition: 1s;
+    transform: scale(.7);
+    cursor: pointer;
+  }
+
+  #main #comment-submit, #main .comment-submit, #reviews input#submit, .button-default, .button.default, .comment-form input[type="submit"], .fusion-button-default, .fusion-footer-widget-area .fusion-privacy-placeholder .button-default, .fusion-portfolio-one .fusion-button, .post-password-form input[type="submit"], .slidingbar-area .button-default, .ticket-selector-submit-btn[type=submit], .tml-submit-wrap input[type="submit"], input.button-default {
+    background: #2aa5f9;
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+
+  #bbp_user_edit_submit, .bbp-submit-wrapper .button, .button-small, .fusion-body .fusion-button-small, .fusion-button_size-small .fusion-button-default-size, .single_add_to_cart_button, .wpcf7-form .wpcf7-submit.button-small, .wpcf7-form .wpcf7-submit.fusion-button-small {
+    padding: 9px 20px;
+    line-height: 14px;
+    font-size: 12px !important;
+    border-radius: 20px;
+  }
+
+  span.animate__animated.animate__fadeInUp.fusion-button.button-flat.fusion-button-default-size.button-custom.button-6.fusion-button-default-span.fusion-button-default-type {
+    padding: 9px 24px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .line {
+    width: 100%;
+    height: 40px;
+    background: #004787;
+    margin-top: 130px;
+  }
+
+  img.img-fluid.desc-img {
+    margin-top: -29px;
+    float: right;
+  }
+
+  ul.description-block {
+    list-style: none;
+    margin-top: 50px;
+  }
+
+  ul.description-block li a {
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+
+  .container-fluid.description-block {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: linear-gradient(90deg, rgb(104, 224, 207) 24%, rgb(42, 165, 249) 66%), url(/img/images/beeldmerk-wit-transparant.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    border-width: 0;
+    border-color: rgb(226, 226, 226);
+    border-style: solid;
+    background-size: cover;
+    padding-bottom: 20px;
+  }
+
+  a.homepage {
+    margin-left: 20px;
+  }
+
+  section.news {
+    background-color: rgba(255, 255, 255, 0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0;
+    border-color: rgb(226, 226, 226);
+    border-style: solid;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(/img/images/beeldmerk-kleur-transparant4.png);
+  }
+
+  .news h3 {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    margin: 50px 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .news-img-block {
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay h3 {
+    color: #fff;
+    background: rgba(0, 0, 0, .8);
+    padding: 10px 15px;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 70px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .read-more {
+    display: block;
+    font-size: 13px;
+    background: #2aa5f9;
+    color: #fff;
+    border: none;
+    padding: 9px 23px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin: 30px auto;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  span.fusion-button-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+  }
+
+  .security h2.text-center {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin: 30px 0;
+    color: rgb(0, 71, 135);
+    font-size: 17px;
+    line-height: 1.2;
+  }
+
+  .fusion-separator-border.sep-single {
+    width: 120px;
+    height: 4px;
+    background: #004787;
+    margin: 30px auto;
+  }
+
+  .fusion-text.fusion-text-1 {
+    color: #747474;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0 0 20px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .security {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 20px 45px 0;
+    padding: 0;
+    margin-top: 7%;
+    min-height: 0;
+  }
+
+  .security .col-lg-4 {
+    padding: 30px;
+    background: #fff;
+  }
+
+  .center_block {
+    background: rgb(241, 251, 250) !important;
+  }
+
+  h2.title-heading-center.fusion-responsive-typography-calculated {
+    margin: 50px 0 50px;
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    text-align: center;
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+
+  section.why {
+    background-color: #004787;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0 0 0 0;
+    border-color: #e2e2e2;
+    border-style: solid;
+    position: relative;
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-bottom: 70px;
+  }
+
+
+  .why p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+
+
+  .fusion-flex-container .fusion-row .fusion-flex-column {
+    display: flex;
+  }
+
+  .fusion-builder-column-10 {
+    width: 16.666666666667% !important;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
+    background-image: linear-gradient(rgb(104, 224, 207) 0%, rgb(42, 165, 249) 100%);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+  }
+
+  .fusion-builder-column-10 > .fusion-column-wrapper {
+    margin-right: 11.52%;
+    padding: 0 !important;
+    margin-left: 11.52%;
+  }
+
+  a.fusion-button.button-flat.fusion-button-default-size.button-custom.button-2.fusion-button-span-yes.fusion-button-default-type {
+    width: 100%;
+    /* background: red; */
+    display: block;
+    background: #f77168;
+    padding: 11px 23px;
+    line-height: 16px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+  }
+
+  #sarah {
+    background-color: rgba(255, 255, 255, 0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0;
+    border-color: rgb(226, 226, 226);
+    border-style: solid;
+    background-size: cover;
+    background-image: url(/img/images/background-gradient-Lisa.jpg);
+    margin-top: -1px;
+  }
+
+  .fusion-separator-border {
+    width: 120px;
+    height: 4px;
+    background: #004787;
+    margin: 25px 0;
+  }
+
+  .fusion-text.fusion-text-6 p {
+    line-height: 1.8;
+  }
+
+  button.fusion-button-text {
+    display: block;
+    font-size: 13px;
+    background: #2aa5f9;
+    color: #fff;
+    border: none;
+    padding: 9px 23px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin: 30px 0;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  h3.title-heading-left.fusion-responsive-typography-calculated {
+    font-family: 'Open Sans', serif;
+    font-weight: 600;
+  }
+
+
+  section#start {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 4% 30px 3%;
+    background-color: #133460;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0 0 0 0;
+    border-color: #e2e2e2;
+    border-style: solid;
+    text-align: center;
+  }
+
+  a.fusion-button.button-flat.fusion-button-default-size.button-custom.button-6.fusion-button-default-span.fusion-button-default-type {
+    padding: 9px 24px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+  }
+
+  #dennis {
+    background-color: rgba(255, 255, 255, 0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0;
+    border-color: rgb(226, 226, 226);
+    border-style: solid;
+    background-size: cover;
+    background-image: url(/img/images/background-gradient-dennis.jpg);
+    padding: 50px 20px;
+  }
+
+  .fusion-text.fusion-text-6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+  img.img-responsive.wp-image-944.lazyautosizes.lazyloaded {
+    margin-top: 85px;
+    margin-bottom: -91px;
+  }
+
+  section#why p {
+    margin-top: 10px;
+  }
+
+  section#why ul {
+    padding: 0;
+    color: #fff;
+
+    li {
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif;
+      margin-top: 3px;
+    }
+  }
+
+
+  img.img-fluid.wp-image-1003.lazyautosizes.lazyloaded {
+    margin-top: 61px;
+    margin-left: 20px;
+  }
+
+  section#about {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 4% 30px 3%;
+    background-color: #133460;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0 0 0 0;
+    border-color: #e2e2e2;
+    border-style: solid;
+    text-align: center;
+  }
+
+  #about .fusion-separator-border.sep-single {
+    background: #fff !important;
+  }
+
+  p.fusion-clearfix {
+    text-align: left;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    font-size: 14px;
+  }
+
+  p.company-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+
+  .author {
+    text-align: initial;
+  }
+
+  h3.title-heading-center.fusion-responsive-typography-calculated {
+    margin: 100px 0 50px !important;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+  }
+
+  section#parts img.img-responsive.wp-image-956.lazyautosizes.lazyloaded {
+    width: 100%;
+  }
+
+  section#parts {
+    padding-bottom: 50px;
+  }
+
+  section#parts img {
+    width: 100%;
+  }
+
+  .l-5 {
+    display: none;
+  }
+
+
+  @media screen and (max-width: 1200px) {
+
+    #main #comment-submit, #main .comment-submit, #reviews input#submit, .button-default, .button.default, .comment-form input[type="submit"], .fusion-button-default, .fusion-footer-widget-area .fusion-privacy-placeholder .button-default, .fusion-portfolio-one .fusion-button, .post-password-form input[type="submit"], .slidingbar-area .button-default, .ticket-selector-submit-btn[type=submit], .tml-submit-wrap input[type="submit"], input.button-default {
+      background: #2aa5f9;
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    #bbp_user_edit_submit, .bbp-submit-wrapper .button, .button-small, .fusion-body .fusion-button-small, .fusion-button_size-small .fusion-button-default-size, .single_add_to_cart_button, .wpcf7-form .wpcf7-submit.button-small, .wpcf7-form .wpcf7-submit.fusion-button-small {
+      padding: 9px 20px;
+      line-height: 14px;
+      font-size: 12px !important;
+      border-radius: 20px;
+    }
+
+    .line {
+      width: 100%;
+      height: 40px;
+      background: #004787;
+      margin-top: 130px;
+    }
+
+    img.img-fluid.desc-img {
+      margin-top: -29px;
+      float: right;
+    }
+
+    ul.description-block {
+      list-style: none;
+      margin-top: 50px;
+    }
+
+    ul.description-block li a {
+      font-size: 24px;
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+    }
+
+    .container-fluid.description-block {
+      background-color: rgba(255, 255, 255, 0);
+      background-image: linear-gradient(90deg, rgb(104, 224, 207) 24%, rgb(42, 165, 249) 66%), url(/img/images/beeldmerk-wit-transparant.png);
+      background-position: center top;
+      background-repeat: no-repeat;
+      border-width: 0;
+      border-color: rgb(226, 226, 226);
+      border-style: solid;
+      background-size: cover;
+      padding-bottom: 20px;
+    }
+
+    a.homepage {
+      margin-left: 20px;
+    }
+
+    section.news {
+      background-color: rgba(255, 255, 255, 0);
+      background-position: center center;
+      background-repeat: no-repeat;
+      border-width: 0;
+      border-color: rgb(226, 226, 226);
+      border-style: solid;
+      background-size: cover;
+      background-attachment: fixed;
+      background-image: url(/img/images/beeldmerk-kleur-transparant4.png);
+    }
+
+    .news h3 {
+      color: rgb(0, 0, 0);
+      font-size: 22px;
+      margin: 50px 0 20px;
+
+    }
+
+    .news-img-block {
+      position: relative;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .overlay h3 {
+      color: #fff;
+      background: rgba(0, 0, 0, .8);
+      padding: 10px 15px;
+      margin: 0;
+      position: absolute;
+      width: 100%;
+      bottom: 53px;
+      font-size: 19px;
+    }
+
+    .read-more {
+      display: block;
+      font-size: 13px;
+      background: #2aa5f9;
+      color: #fff;
+      border: none;
+      padding: 9px 23px;
+      border-radius: 20px;
+      font-weight: 500;
+      margin: 30px auto;
+    }
+
+    .security h2.text-center {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      margin: 30px 0;
+      color: rgb(0, 71, 135);
+      font-size: 17px;
+      line-height: 1.2;
+    }
+
+    .fusion-separator-border.sep-single {
+      width: 120px;
+      height: 4px;
+      background: #004787;
+      margin: 30px auto;
+    }
+
+    .fusion-text.fusion-text-1 {
+      color: #747474;
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      margin: 0 0 20px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+    .security {
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: rgba(0, 0, 0, 0.2) 0 20px 45px 0;
+      padding: 0;
+      margin-top: 7%;
+      min-height: 0;
+    }
+
+    .security .col-lg-4 {
+      padding: 30px;
+      background: #fff;
+    }
+
+    .center_block {
+      background: rgb(241, 251, 250) !important;
+    }
+
+    h2.title-heading-center.fusion-responsive-typography-calculated {
+      margin: 50px 0 50px;
+      color: rgb(255, 255, 255);
+      font-size: 34px;
+      text-align: center;
+      line-height: 1.2;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+    }
+
+    section.why {
+      background-color: #004787;
+      background-position: center center;
+      background-repeat: no-repeat;
+      border-width: 0 0 0 0;
+      border-color: #e2e2e2;
+      border-style: solid;
+      position: relative;
+      padding-top: 50px;
+      margin-top: 50px;
+      padding-bottom: 70px;
+    }
+
+
+    .why p {
+      color: #fff;
+      padding-bottom: 20px;
+    }
+
+
+    .fusion-flex-container .fusion-row .fusion-flex-column {
+      display: flex;
+    }
+
+    .fusion-builder-column-10 {
+      width: 16.666666666667% !important;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
+      background-image: linear-gradient(rgb(104, 224, 207) 0%, rgb(42, 165, 249) 100%);
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 0;
+    }
+
+    .fusion-builder-column-10 > .fusion-column-wrapper {
+      margin-right: 11.52%;
+      padding: 0 !important;
+      margin-left: 11.52%;
+    }
+
+    a.fusion-button.button-flat.fusion-button-default-size.button-custom.button-2.fusion-button-span-yes.fusion-button-default-type {
+      width: 100%;
+      /* background: red; */
+      display: block;
+      background: #f77168;
+      padding: 11px 23px;
+      line-height: 16px;
+      font-size: 13px;
+      text-align: center;
+      color: #fff;
+    }
+
+    #sarah {
+      background-color: rgba(255, 255, 255, 0);
+      background-position: center center;
+      background-repeat: no-repeat;
+      border-width: 0;
+      border-color: rgb(226, 226, 226);
+      border-style: solid;
+      background-size: cover;
+      background-image: url(/img/images/background-gradient-Lisa.jpg);
+      margin-top: -1px;
+    }
+
+    .fusion-separator-border {
+      width: 120px;
+      height: 4px;
+      background: #004787;
+      margin: 25px 0;
+    }
+
+    .fusion-text.fusion-text-6 p {
+      line-height: 1.8;
+    }
+
+    button.fusion-button-text {
+      display: block;
+      font-size: 13px;
+      background: #2aa5f9;
+      color: #fff;
+      border: none;
+      padding: 9px 23px;
+      border-radius: 20px;
+      font-weight: 500;
+      margin: 30px 0;
+    }
+
+
+    section#start {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 4% 30px 3%;
+      background-color: #133460;
+      background-position: center center;
+      background-repeat: no-repeat;
+      border-width: 0 0 0 0;
+      border-color: #e2e2e2;
+      border-style: solid;
+      text-align: center;
+    }
+
+    a.fusion-button.button-flat.fusion-button-default-size.button-custom.button-6.fusion-button-default-span.fusion-button-default-type {
+      padding: 9px 24px;
+      border: 2px solid #fff;
+      color: #fff;
+      border-radius: 20px;
+    }
+
+    #dennis {
+      background-color: rgba(255, 255, 255, 0);
+      background-position: center center;
+      background-repeat: no-repeat;
+      border-width: 0;
+      border-color: rgb(226, 226, 226);
+      border-style: solid;
+      background-size: cover;
+      background-image: url(/img/images/background-gradient-dennis.jpg);
+      padding: 50px 20px;
+    }
+
+    .fusion-text.fusion-text-6 {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+
+    a.fusion-button.button-flat.fusion-button-default-size.button-custom.button-2.fusion-button-span-yes.fusion-button-default-type:hover {
+      background: #68e0cf;
+    }
+
+    a.homepage:hover {
+      color: #004787 !important;
+      text-decoration: none;
+    }
+    .fusion-text.fusion-text-9 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+    }
+
+
+    img.img-responsive.wp-image-944.lazyautosizes.lazyloaded {
+      margin-top: 85px;
+      margin-bottom: -91px;
+    }
+
+    img.img-fluid.wp-image-1003.lazyautosizes.lazyloaded {
+      margin-left: -16px;
+      position: absolute;
+      bottom: 0;
+    }
+
+    section#about {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 4% 30px 3%;
+      background-color: #133460;
+      background-position: center center;
+      background-repeat: no-repeat;
+      border-width: 0 0 0 0;
+      border-color: #e2e2e2;
+      border-style: solid;
+      text-align: center;
+    }
+
+    #about .fusion-separator-border.sep-single {
+      background: #fff !important;
+    }
+    p.fusion-clearfix {
+      text-align: left;
+      font-style: italic;
+    }
+
+    .author {
+      text-align: initial;
+    }
+
+    span.company-name {
+      margin-left: 50px;
+    }
+
+    h3.title-heading-center.fusion-responsive-typography-calculated {
+      margin: 100px 0 50px !important;
+      text-align: center;
+    }
+
+    section#parts img.img-responsive.wp-image-956.lazyautosizes.lazyloaded {
+      width: 100%;
+    }
+
+    section#parts img {
+      width: 100%;
+    }
+
+
+    button.subscribe {
+      border-radius: 20px;
+      height: 40px;
+      width: 90%;
+      border: none;
+      background: linear-gradient(#1e75bc 0%, #5bc3b0 100%);
+      color: #fff;
+      font-weight: 700;
+      font-size: 18px;
+      font-family: 'Open Sans', sans-serif;
+      outline: none;
+      margin: auto;
+      display: block;
+    }
+
+    button.subscribe:hover {
+      background: #fff;
+      color: #004787;
+    }
+
+    section#copyright {
+      background-color: #012f58;
+      background-position: center center;
+      background-repeat: no-repeat;
+      border-width: 0 0 0 0;
+      border-color: #e2e2e2;
+      border-style: solid;
+      padding: 15px 30px 5px;
+    }
+
+    .l-5 {
+      display: none;
+    }
+
+
+    @media screen and (max-width: 992px) {
+      section#why ul {
+        padding-left: 30px;
+      }
+      #dennis img.img-responsive.wp-image-944.lazyautosizes.lazyloaded {
+        display: block;
+        margin: 0 auto -75px;
+        width: 100%;
+        height: auto;
+      }
+
+      img.img-fluid.desc-img, .why .col-lg-2, .bg-img, .f-5 img.img-fluid.wp-image-1003.lazyautosizes.lazyloaded, .l-3, .line {
+        display: none;
+      }
+
+      section.why {
+        padding: 1px;
+      }
+
+      section#sarah .f-5 {
+        display: none;
+      }
+
+      section#sarah {
+        background: none;
+        padding-top: 30px;
+      }
+
+      .l-5 {
+        display: block;
+      }
+
+      img.img-fluid.wp-image-1003.lazyautosizes.lazyloaded {
+        margin: 0 auto -24px;
+        position: unset;
+      }
+
+      section#dennis {
+        background: none;
+      }
+
+
+      #about .col-lg-4 {
+        margin-bottom: 45px;
+      }
+
+      section#start h1,
+      h1.title-heading-center.fusion-responsive-typography-calculated,
+      h2.title-heading-center.fusion-responsive-typography-calculated {
+        font-size: 30px !important;
+      }
+      section#start, section#about {
+        padding: 30px 10px;
+      }
+
+      ul.description-block {
+        padding: 0;
+      }
+      ul.description-block li a {
+        font-size: 19px;
+      }
+
+      img.img-responsive.wp-image-944.lazyautosizes.lazyloaded {
+        //margin-top: -130px !important;
+        margin-bottom: -90px !important;
+      }
+      .container-fluid.description-block {
+        margin-top: 136px;
+      }
+    }
+
+    section#parts {
+      padding-bottom: 30px;
+    }
+
+    body {
+      position: relative;
+    }
+
+
+    .animate__animated {
+      --animate-duration: 2s;
+    }
+
+    /* This changes all the animations globally */
+    :root {
+      --animate-duration: 800ms;
+      --animate-delay: 0.9s;
+    }
+
+    ol.carousel-indicators li {
+      border-radius: 50%;
+      width: 15px;
+      height: 15px !important;
+      margin-right: 7px;
+    }
+
+    .carousel-indicators li {
+      background-color: #000 !important;
+    }
+
+    button.control {
+      background-color: rgba(104, 224, 207, 0.76);
+      border: none;
+      width: 30px;
+      height: 30px;
+      color: #fff;
+      font-size: 14px !important;
+    }
+
+    button.control.right-btn {
+      position: absolute;
+      right: 0;
+    }
+
+    button.control.left-btn {
+      position: absolute;
+      left: 0;
+    }
+
+    .carousel-item:hover ~ .control {
+      display: block;
+    }
+
+    .control:focus {
+      outline: none;
+    }
+  }
+}

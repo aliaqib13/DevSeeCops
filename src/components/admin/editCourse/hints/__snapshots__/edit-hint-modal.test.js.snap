@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditHintModal Should render successfully 1`] = `
+<Modal
+  confirmLoading={false}
+  footer={
+    Array [
+      <Button
+        block={false}
+        ghost={false}
+        htmlType="button"
+        loading={false}
+        onClick={[MockFunction]}
+      >
+        Cancel
+      </Button>,
+      <Button
+        block={false}
+        ghost={false}
+        htmlType="button"
+        loading={false}
+        onClick={[Function]}
+        type="primary"
+      >
+        Edit
+      </Button>,
+    ]
+  }
+  maskTransitionName="fade"
+  okType="primary"
+  onCancel={[MockFunction]}
+  title="Edit Hint"
+  transitionName="zoom"
+  visible={false}
+  width={520}
+>
+  <div
+    className="block-item"
+  >
+    <Title
+      level={4}
+    >
+      Hint Message
+    </Title>
+    <CKEditor
+      config={Object {}}
+      data="<p>Test Hint</p>"
+      id="hint_message"
+      name="message"
+      onBeforeLoad={[Function]}
+      onChange={[Function]}
+      readOnly={false}
+      type="classic"
+    />
+  </div>
+</Modal>
+`;

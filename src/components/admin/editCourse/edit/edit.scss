@@ -1,0 +1,282 @@
+.editCourse {
+  background: #eef0f1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 29px;
+  width: 990px;
+
+  .courseDescriptionSection {
+    margin-bottom: 32px;
+  }
+
+  .actions-top-block {
+    margin-bottom: 15px;
+
+    button {
+      margin-right: 20px;
+    }
+
+    .preview-course-btn {
+      float: right;
+      height: 36px;
+      width: 100px;
+    }
+  }
+
+  .whatYouWillLearn, .toolsHandsOnLab {
+    padding: 25px;
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+
+      li {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .assignTagsToCourse {
+    padding: 25px;
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+
+      li {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .whoThisCourseIsFor {
+    padding: 25px;
+
+    ul {
+      padding-left: 0;
+
+      li {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .faq {
+    padding: 25px;
+
+    &-inputs {
+      margin-top: 25px;
+    }
+  }
+
+  .categorySelect {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+
+  .addContainer {
+    margin-top: 16px;
+
+    span {
+      cursor: pointer;
+      font-size: 18px;
+      color: #1890FF;
+      margin: 0;
+    }
+
+    img {
+      margin-right: 8px;
+    }
+
+    .addButtonsContainer {
+      margin-top: 16px;
+
+      button:first-of-type {
+        margin-right: 16px;
+        background: #1890FF 0% 0% no-repeat padding-box;
+      }
+
+      button {
+        background: #59C0AF 0% 0% no-repeat padding-box;
+      }
+
+      button > span {
+        color: #fff;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .small-input {
+    input {
+      margin-top: 9px;
+    }
+
+    margin-bottom: 16px;
+  }
+
+  .inputSpan {
+    color: #27393D80;
+    margin-bottom: 9px;
+  }
+
+  .imageContainer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    .courseImage {
+      font-size: 20px;
+      height: 50px;
+    }
+
+    .imageDiv {
+      margin-left: 16px;
+
+      img {
+        object-fit: contain;
+        width: 176px;
+        height: 112px;
+      }
+    }
+  }
+
+  .uploadImage {
+    display: flex;
+
+    .imageUploader {
+      width: 176px;
+      height: 112px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      cursor: pointer;
+    }
+
+    .imageUploader:hover {
+      outline: 1px solid buttonface;
+    }
+
+    span {
+      color: #3333335C;
+    }
+
+    img {
+      width: 28px;
+      height: 24px;
+      margin-bottom: 10px;
+    }
+  }
+
+
+
+  .courseDescriptionContainer {
+    margin: 16px 0;
+
+    .descriptionText {
+      margin-top: 9px;
+
+      textarea {
+        resize: none;
+      }
+    }
+  }
+
+  .include {
+    margin-bottom: 16px;
+
+    .ant-descriptions-item-label {
+      color: #27393D80;
+    }
+
+    .ant-descriptions-row > th, .ant-descriptions-row > td {
+      padding-bottom: 9px;
+    }
+  }
+
+  .courseDescriptionContainerGroup {
+    .author-pic {
+      max-height: 120px;
+      max-width: 120px;
+      object-fit: cover;
+    }
+
+    margin-bottom: 16px;
+
+    .ant-descriptions-item-label {
+      color: #27393D80;
+    }
+
+    .ant-descriptions-row > th, .ant-descriptions-row > td {
+      padding-bottom: 9px;
+    }
+
+    .rate-container {
+      height: 32px;
+      padding: 0 11px;
+      line-height: 1.5;
+      background-color: #fff;
+      border: 1px solid #d9d9d9;
+      border-radius: 4px;
+      width: 194px;
+    }
+  }
+
+  .buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+
+    .courseTypeContainer {
+      margin-bottom: 32px;
+    }
+
+    button {
+      width: 168px;
+      height: 48px;
+      border: 1px solid #27393D;
+      color: #27393D;
+      border-radius: 5px;
+    }
+
+    div button:first-of-type {
+      margin-right: 16px;
+    }
+
+    .savePreviewContainer {
+      button {
+        margin-right: 16px;
+        color: #fff;
+        border: none;
+      }
+
+      .preview {
+        color: #fff;
+        background: #59C0AF 0% 0% no-repeat padding-box;
+        border: none;
+      }
+    }
+  }
+}
+
+.ant-select-remove-icon {
+  margin-left: 40%;
+}

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CopyField Should render successfully 1`] = `
+<div
+  className="copy-field"
+>
+  <Tooltip
+    arrowPointAtCenter={false}
+    autoAdjustOverflow={true}
+    mouseEnterDelay={0.1}
+    mouseLeaveDelay={0.1}
+    onVisibleChange={[Function]}
+    placement="top"
+    title="Copy to clipboard"
+    transitionName="zoom-big-fast"
+  >
+    <span
+      className="copy-button-container"
+    >
+      <ClipboardButton
+        className="copy-button"
+        isVisibleWhenUnsupported={true}
+        onClick={[Function]}
+        onSuccess={[Function]}
+        option-target={[Function]}
+      >
+        <Icon
+          type="copy"
+        />
+      </ClipboardButton>
+    </span>
+  </Tooltip>
+  <code
+    className="command"
+  >
+    <span
+      className="command-wrapper"
+    >
+      test
+    </span>
+  </code>
+</div>
+`;

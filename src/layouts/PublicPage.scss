@@ -1,0 +1,14 @@
+.no-scroll {
+  overflow: hidden;
+  touch-action: none;
+}
+.page-content {
+  padding: 20px;
+  min-height: inherit;
+}
+
+.public-content {
+  margin: 88px 16px 0;
+  background: #fff;
+  min-height: calc(100vh - 180px);
+}

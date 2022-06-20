@@ -1,0 +1,19 @@
+.update-content-btn{
+  position: fixed;
+  margin-top: 2%;
+}
+
+.image-div {
+  display: flex;
+  width: 100%;
+  margin-top: 15%;
+
+  img {
+    object-fit: cover;
+    width: 241px;
+    height: 178px;
+  }
+}
+.academy-items{
+  margin-top: 1%;
+}
