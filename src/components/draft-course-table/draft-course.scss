@@ -1,0 +1,96 @@
+
+.draft-course-table {
+  textarea {
+    width: 700px;
+    margin-top: 10px
+  }
+  
+  .empty-table-column {
+    display: none;
+  }
+  .use-case-container{
+    margin-top:3% ;
+  }
+  
+  .required-asterics{
+    color: red;
+  }
+  .multipleSelection{
+        ul {
+            padding-left: 0;
+            li {
+                display: flex;
+                justify-content: space-between;
+            }
+            i {
+                margin-right: 10px;
+            }
+        }
+  }
+  .courseDescriptionSection {
+    margin-bottom: 32px;
+  }
+
+  .assignTagsToCourse {
+    ul {
+        list-style: none;
+        padding-left: 0;
+        li {
+            display: flex;
+            justify-content: space-between;
+        }
+        i {
+            margin-right: 10px;
+        }
+    }
+  }
+  .chosen-scenario {
+    background: yellow;
+    padding: 5px;
+  }
+
+  .vulnerable-object {
+    margin-left:5px;
+    margin-top: 15px
+  }
+  
+  .draft-tab-info {
+    margin-bottom: 35px;
+    font-style: italic;
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  .draft-editor {
+    width: 60%;
+    margin-top: 100px
+  }
+
+  .required-input-cont {
+    margin-left: 10px;
+    margin-top: -20px;
+  }
+
+  .table-row-light {
+    background-color: #ffffff;
+  }
+  
+ .table-row-dark {
+    background-color: #fbfbfb;
+ }
+
+ .draft-buttons {
+  position: fixed;
+  right: 40px;
+  z-index: 999;
+  Button {
+   background: #2ea8c7 0% 0% no-repeat padding-box;   
+   z-index: 999;
+   width: 145px;
+   height: 40px;
+   border-radius: 22px;
+   color: #fff;
+   border: none;
+  }
+ }
+}

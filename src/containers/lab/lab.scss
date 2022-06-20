@@ -1,0 +1,196 @@
+.labs-table-content{
+  &-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &-info {
+      display: flex;
+      //flex-direction: column;
+    }
+    &-level {
+      font-size: 16px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    &-hints {
+      font-size: 15px;
+      white-space: nowrap;
+    }
+    &-timer {
+      .ant-statistic-title {
+        color: rgba(0, 0, 0, 0.65);
+        margin-bottom: -3px;
+        font-size: 15px;
+      }
+    }
+  }
+  .progress-bar-container {
+    background: #f0f2f5;
+    padding: 20px 20px 5px 20px;
+    border-radius: 20px;
+  }
+  .labs-table {
+    margin:0 5px 20px 5px;
+    tr{
+      th,td{
+        padding: 5px 15px;
+      }
+    }
+  }
+  .labs-table-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 45px;
+
+    h1{
+      margin-bottom: 0;
+    }
+
+  }
+  .table-sm{
+    max-height: 150px;
+    .ant-table-placeholder{
+      border-bottom: none;
+    }
+  }
+  .go-to-link {
+    display: inline-block;
+    width: auto;
+    float: right;
+    color: white;
+    background: linear-gradient(to right, #5398d0 0%, #00bbff 0%, #5bc7aa 100%);
+    border-color: #00bbff !important;
+    align-items: center;
+  }
+}
+.stepPageContent{
+
+  .monaco-editor-background{
+    background-color: #001529;
+
+  }
+  .margin {
+    background-color: #001529 !important;
+
+  }
+
+  .ant-steps-item-custom.ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon{
+    color: #fff;
+  }
+  .ant-steps-small{
+    .ant-steps-item-custom .ant-steps-item-icon > .ant-steps-icon {
+      font-size: 15px;
+      line-height: 23px;
+    }
+    .ant-steps-item-title {
+      // line-height: 34px;
+      text-indent: 5px;
+    }
+    .ant-steps-item-finish, .ant-steps-item-process{
+      .ant-steps-item-icon {
+        background: rgba(83, 152, 208, 1) !important;
+        background: -moz-linear-gradient(left, rgba(83, 152, 208, 1) 0%, rgba(0, 187, 255, 1) 0%, rgba(91, 199, 170, 1) 100%)!important;
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(83, 152, 208, 1)), color-stop(0%, rgba(0, 187, 255, 1)), color-stop(100%, rgba(91, 199, 170, 1)))!important;
+        background: -webkit-linear-gradient(left, rgba(83, 152, 208, 1) 0%, rgba(0, 187, 255, 1) 0%, rgba(91, 199, 170, 1) 100%)!important;
+        background: -o-linear-gradient(left, rgba(83, 152, 208, 1) 0%, rgba(0, 187, 255, 1) 0%, rgba(91, 199, 170, 1) 100%)!important;
+        background: -ms-linear-gradient(left, rgba(83, 152, 208, 1) 0%, rgba(0, 187, 255, 1) 0%, rgba(91, 199, 170, 1) 100%)!important;
+        background: linear-gradient(to right, rgba(83, 152, 208, 1) 0%, rgba(0, 187, 255, 1) 0%, rgba(91, 199, 170, 1) 100%)!important;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5398d0', endColorstr='#5bc7aa', GradientType=1)!important;
+        border-color: #00bbff;
+      }
+      .ant-steps-icon{
+        span{
+          color: #ffffff;
+        }
+      }
+    }
+    .ant-steps-item-tail {
+      position: absolute;
+      top: 12px;
+      padding: 16px 0;
+    }
+
+    .ant-steps-item-wait{
+      .ant-steps-item-icon {
+        background-color: rgba(219, 219, 219, 0.52);
+        border-color: rgba(219, 219, 219, 0.52);
+      }
+      .ant-steps-icon{
+        color: black;
+      }
+    }
+
+    .ant-steps-item-custom {
+      .ant-steps-item-icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 16px;
+        padding: 5px 0;
+        line-height: 23px !important;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .ant-typography {
+    font-size: 18px;
+  }
+  .ant-btn{
+    &[disabled]{
+      color: rgba(0, 0, 0, 0.25);
+      background: #f5f5f5;
+      border-color: #d9d9d9;
+    }
+  }
+}
+
+.panel-row{
+  .panel{
+    .ant-collapse-content{
+      .ant-collapse-content-box{
+        padding: 0;
+
+        .ant-table-wrapper{
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.error-lab {
+  display: flex;
+  padding: 20px 15px 20px 15px;
+  justify-content: space-between;
+  background-color: #d9d9d9;
+  border-radius: 3px;
+  h2 {
+    line-height: 23px;
+    color: red;
+  }
+  button {
+    margin-left: 50px;
+
+  }
+}
+.creds-username {
+  float: left;
+  margin-right: 15px
+}
+
+.creds-password {
+  float: right;
+}
+
+.creds-header{
+  font-weight: bold;
+}
+
+.copy-button {
+  margin-left: 4px;
+}
+
+
+
+

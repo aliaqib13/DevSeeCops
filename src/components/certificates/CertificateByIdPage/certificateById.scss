@@ -1,0 +1,154 @@
+.certificates-by-id-container{
+    .page-title {
+        @media (max-width: 576px) {
+
+            h1.ant-typography, .ant-typography h1 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .certificate-share-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        @media (max-width: 1250px) {
+            flex-direction: column;
+        }
+
+        .certificate-image-share-container{
+            width: 48%;
+            display: flex;
+            flex-direction: column;
+
+            @media (max-width: 1250px) {
+                width: 90%;
+                margin: auto;
+                margin-bottom: 10px;
+            }
+
+            .certificate-image-body{
+                display: flex;
+                justify-content: center;
+                height: 350px;
+                position: relative;
+   
+                @media (max-width: 700px) {
+                    height: fit-content;
+                }
+
+                .certificate-by-id-img{
+                    height: 100%;
+                    @media (max-width: 700px) {
+                        width: 100%;
+                    }  
+                }
+            }
+
+            .certificate-share-body{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                width: 100%;
+                background-color: rgba(239, 242, 245,0.7) ;
+                height: 50px;
+                position: absolute;
+                bottom: 10px;
+
+                .share-icon{
+                    font-size: 28px;
+                    align-self: center;
+                    color: black;
+
+                    :hover{
+                        font-size: 30px;
+                        transition:all 0.5s ease-in-out;
+                        color: #59bcb4;
+                        border-radius: 5px;
+                    }  
+                }
+
+                button{
+                    margin: 0;
+                }
+
+                .facebook-share-icon{
+                    color: #3b5998 ;
+
+                    :hover{
+                        background:#3b5998;
+                    }
+                }
+
+                .twitter-share-icon{
+                    color: #1DA1F2 ;
+                    :hover{
+                        background:#1DA1F2;
+                    }
+                }
+
+                .instagram-share-icon{
+                    color: #d6249f;
+                  :hover{
+                    background:#d6249f;
+                  }
+                }
+
+                .linkedin-share-icon{
+                    color: #0077b5 ;
+                    :hover{
+                        background:#0077b5;
+                    }
+                }
+
+                .certificate-mail-download-button{
+                    color: #59bcb4;
+                    :hover{
+                        background:#59bcb4;
+                        color: rgb(239, 242, 245);
+                    }
+                }
+
+                .non-active{
+                    opacity: 0.3;
+
+                    :hover{
+                        font-size: 28px;
+                        background: none;
+                    }
+                }
+            }
+        }
+    }
+    
+    .certificate-details-container{
+        margin-top: 20px;
+        text-align: center;
+
+        @media (max-width: 576px){
+            font-size: 13px;
+        }
+    
+        p{
+            font-size: 16px;
+
+            a{
+                color: inherit;
+            }
+
+            :first-child{
+                cursor:pointer;  
+            }
+
+            @media (max-width: 576px){
+                font-size: 14px;
+            }
+        }
+
+        .credential-id{
+            width: 270px;
+            margin: auto;
+        }
+    }
+}

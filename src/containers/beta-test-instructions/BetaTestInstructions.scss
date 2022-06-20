@@ -1,0 +1,68 @@
+.betaTestContainer {
+  &-wrapper {
+    display: flex;
+  }
+  .ant-steps-item-icon {
+    text-align: center;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .ant-steps-icon {
+      font-size: 12px !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .ant-steps-item-content {
+    cursor: pointer;
+  }
+  .stepsContainer {
+    padding: 30px 11px;
+    border-right: 1px solid buttonface;
+    width: 220px;
+    flex-shrink: 0;
+    display: block;
+    .step-item {
+      padding-bottom: 15px;
+      cursor: pointer;
+    }
+  }
+  .contentContainer {
+    flex-grow: 1;
+    width: calc(100% - 220px);
+    padding: 34px 24px 24px;
+    .steps-action {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row-reverse;
+      .nav-button {
+        padding: 0;
+        border-radius: 4px;
+        display: flex;
+        border-color: #5bc7ab;
+        align-items: center;
+        color: #5bc7ab;
+        width: 102px;
+        height: 30px;
+        background-color: white;
+        span {
+          margin: 0 auto;
+        }
+        &[disabled] {
+          color: #d9d9d9;
+          border-color: #d9d9d9;
+        }
+      }
+      .stepsCount {
+        display: flex;
+        align-items: center;
+        margin: 0 12px;
+        font-size: 14px;
+        color: #5bc7ab;
+      }
+    }
+  }
+}
