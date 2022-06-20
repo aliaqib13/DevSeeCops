@@ -1,0 +1,45 @@
+.infinityDesc {
+  width: 500px;
+  height: 236px;
+  display: flex;
+  position: relative;
+  background-image: linear-gradient(to right, #5396d1, #5bc8ab);
+  align-items: flex-end;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px #000;
+  margin-bottom: 64px;
+  margin-top: 32px;
+
+  div {
+    position: absolute;
+    height: 84%;
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    font-size: 16px;
+    overflow: auto;
+    border: 1px solid #5bc8ab;
+  }
+
+  span {
+    position: absolute;
+    left: 16px;
+    top: 4px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+  }
+}
+.infinityContainer {
+  max-width: 800px;
+  margin: 41px auto;
+}
+.infinityImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.infinityImageContainer svg {
+  width: 100% !important;
+}

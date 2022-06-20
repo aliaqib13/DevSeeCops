@@ -1,0 +1,55 @@
+.admin-jobs-container {
+  .select-box-container {
+    margin: 30px 0 10px 0;
+    .select-type {
+      width: 20%;
+    }
+  }
+  .actions {
+    button {
+      margin-right: 10px;
+    }
+  }
+  .change-status{
+    background: #51c41b;
+    border-color: #51c41b;
+  }
+  .delete-rows-box {
+    margin-bottom: 10px;
+    .jobs-count {
+      margin-left: 10px;
+    }
+  }
+  .dropdown-btn {
+    button {
+      height: auto;
+    }
+    .color-btn-blue {
+      color: #1890ff;
+      background: #e6f7ff;
+      border-color: #91d5ff;
+    }
+    .color-btn-green {
+      color: #52c41a;
+      background: #f6ffed;
+      border-color: #b7eb8f;
+    }
+    .color-btn-red {
+      color: #f5222d;
+      background: #fff1f0;
+      border-color: #ffa39e;
+    }
+  }
+}
+.delete-job-dropdown-CREATED {
+  background: #b7eb8f;
+}
+.delete-job-dropdown-CREATING {
+  background: #91d5ff;
+}
+.delete-job-dropdown-DESTROYING {
+  background: #ffa39e;
+}
+.delete-job-dropdown-ERROR {
+  background: #ffa39e;
+}

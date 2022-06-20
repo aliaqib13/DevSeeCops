@@ -1,0 +1,16 @@
+
+.course-ratings-container {
+  .ant-card-body {
+    padding: 15px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-body {
+    margin-top: 10px;
+    p {
+      margin-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.courses-searchbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  flex-direction: column;
+  position: relative;
+  font-size: 20px;
+  .ant-input-affix-wrapper .ant-input-suffix {
+    font-size: 20px;
+    right: 97.5%;
+  }
+  input {
+    padding-left: 3%;
+  }
+  .searchContainer {
+    width: 100%;
+    height: 60px;
+  }
+
+  @media (max-width: 1056px) {
+    .ant-input-affix-wrapper .ant-input-suffix {
+      right: 95.5%;
+    }
+    input {
+      padding-left: 5%;
+    }
+  }
+  @media (max-width: 719px) {
+    .ant-input-affix-wrapper .ant-input-suffix {
+      right: 94%;
+    }
+    input {
+      padding-left: 6%;
+    }
+  }
+  @media (max-width: 648px) {
+    .ant-input-affix-wrapper .ant-input-suffix {
+      right: 93%;
+    }
+    input {
+      padding-left: 7%;
+    }
+  }
+  @media (max-width: 568px) {
+    .ant-input-affix-wrapper .ant-input-suffix {
+      right: 92%;
+    }
+    input {
+      padding-left: 8%;
+    }
+  }
+
+  @media (max-width: 522px) {
+    .ant-input-affix-wrapper .ant-input-suffix {
+      right: 91%;
+    }
+    input {
+      padding-left: 9%;
+    }
+  }
+
+  @media (max-width: 515px) {
+    .ant-input-affix-wrapper .ant-input-suffix {
+      right: 90%;
+    }
+    input {
+      padding-left: 10%;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .ant-input-affix-wrapper .ant-input-suffix {
+      right: 82%;
+    }
+    input {
+      padding-left: 17%;
+    }
+  }
+}
+
+
+
+
+

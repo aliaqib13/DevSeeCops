@@ -1,0 +1,197 @@
+.learning-path {
+  >svg {
+    width: 70%;
+    margin: auto;
+    display: block;
+    @media screen and (max-width: 1200px) {
+      width: 100%;
+    }
+
+    tspan {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    rect {
+      pointer-events: bounding-box;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.learning-path-category {
+    margin-top: 50px;
+
+  .heading {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #BEBEBE;
+  }
+
+  .description_block {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 80px;
+      height: 54px;
+    }
+
+    strong {
+      color: #032140;
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
+
+  .learning-path {
+    border: 1px solid #DEDEDE;
+
+    .dropdown_path {
+      display: flex;
+      padding: 15px 16px 0;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      .title_and_subtitle {
+        float: left;
+        overflow: hidden;
+        max-width: 80%;
+        strong {
+          color: #032140;
+          font-family: 'Montserrat', sans-serif;
+        }
+        p {
+          margin-top: 5px;
+          font-size: inherit
+        }
+      }
+    }
+
+    .main-description {
+      padding: 20px 40px;
+    }
+  }
+
+  .intro-description {
+    font-size: 12px;
+    color: #828282;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .intro-cont {
+    padding: 10px;
+  }
+
+  img {
+    float: left;
+    margin-right: 5px;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+
+  h4 {
+    margin-left: 10px;
+  }
+
+  .courses-cont {
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+  }
+
+  .video-play-arrow {
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+    z-index: 100;
+    font-size: 25px;
+  }
+
+  .video-cont {
+    margin-top: -80px;
+    margin-right: 50px;
+    float: right;
+    @media screen and (max-width: 767px) {
+      float: unset;
+      margin-top: 0;
+    }
+  }
+
+  .arrow-up-category {
+    margin-right: 15px;
+    vertical-align: middle;
+    font-size: 12px;
+    cursor: pointer;
+    color: grey;
+    float: left;
+
+    svg {
+      width: 12px;
+      fill: #032140;
+      margin-top: 5px;
+    }
+  }
+
+  .course-resume {
+    background: #57bdac;
+    color: white;
+  }
+  .course-interest-registered {
+    margin-left: 10px;
+  }
+  .course-notify-me {
+    margin-left: 10px;
+    background: #bae7ff;
+  }
+  .double-arrow {
+    float: right;
+    cursor: pointer;
+    margin-right: 10px; 
+    margin-bottom: 30px;   
+    margin-top: 30px;   
+  }
+
+  .ceritificate-completed {
+    float: none;
+    margin-left: 7px
+  }
+
+  .course-image-cont {
+    flex: 0 0 100px;
+  }
+
+  .course-content-cont {
+    float: right;
+  }  
+  .exam-icon {
+    font-size: 24px;
+    margin-bottom: -2px
+  }
+}
+
+
+.learning-path-title {
+  color: #032140;
+  font-size: 14px;
+  font-family: "OpenSans-Bold", "Open Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}

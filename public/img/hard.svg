@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="13.706" viewBox="0 0 16 13.706">
+  <g id="Level" transform="translate(-1205 -362.294)">
+    <g id="Level-2" data-name="Level">
+      <path id="Path_31" data-name="Path 31" d="M0,2,4,0V8H0Z" transform="translate(1205 368)" fill="#27393d"/>
+      <g id="Path_32" data-name="Path 32" transform="translate(1210 363.454)" fill="#27393d">
+        <path d="M0,4.182,5,1.546v11H0Z" stroke="none"/>
+        <path d="M 4 3.203357696533203 L 1 4.785107612609863 L 1 11.54562377929688 L 4 11.54562377929688 L 4 3.203357696533203 M 5 1.545623779296875 L 5 12.54562377929688 L 0 12.54562377929688 L 0 4.181873321533203 L 5 1.545623779296875 Z" stroke="none" fill="#27393d"/>
+      </g>
+      <g id="Path_33" data-name="Path 33" transform="translate(1216 364.483)" fill="#27393d">
+        <path d="M0,.517,5-2.189V11.517H0Z" stroke="none"/>
+        <path d="M 4 -0.510319709777832 L 1 1.113256454467773 L 1 10.51739311218262 L 4 10.51739311218262 L 4 -0.510319709777832 M 5 -2.188567161560059 L 5 11.51739311218262 L 0 11.51739311218262 L 0 0.5173931121826172 L 5 -2.188567161560059 Z" stroke="none" fill="#27393d"/>
+      </g>
+    </g>
+  </g>
+</svg>

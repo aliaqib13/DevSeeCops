@@ -1,0 +1,84 @@
+.editStepsContainer {
+    .stepContentContainer {
+        width: 100%;
+        .savePreviewContainer {
+            margin: 32px 0 16px 0;
+            button {
+                width: 168px;
+                height: 48px;
+                border-radius: 5px;
+                color: #fff;
+                border: none;
+                background: #1890FF 0% 0% no-repeat padding-box;
+            }
+            > button:first-child {
+                background: #59C0AF 0% 0% no-repeat padding-box;
+                margin-right: 16px;
+            }
+        }
+    }
+    .courseDescription {
+        margin-bottom: 50px;
+        h1 {
+            font-weight: bold;
+            color: #27393D;
+            display: inline;
+            font-size: 24px;
+        }
+        .typeSpan {
+            color: #27393D;
+            text-transform: capitalize;
+            font-size: 18px;
+        }
+    }
+    .stepsTableContainer {
+        table {
+            border: 1px solid buttonface;
+            min-width: 500px;
+            tr, td, th {
+                border: 1px solid buttonface;
+                text-align: center;
+            }
+            td, th {
+                padding: 16px;
+            }
+            td {
+                img {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .addContainer {
+        margin-top: 16px;
+        span {
+            cursor: pointer;
+            font-size: 18px;
+            color: #1890FF;
+            margin: 0;
+        }
+        img {
+            margin-right: 8px;
+        }
+        .addButtonsContainer {
+            margin-top: 16px;
+            button:first-of-type {
+                margin-right: 16px;
+                background: #1890FF 0% 0% no-repeat padding-box;
+            }
+            button {
+                background: #59C0AF 0% 0% no-repeat padding-box;
+            }
+            button > span {
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+    .stepDescriptionContainer {
+        display: flex;
+        .stepsTableContainer {
+            margin-right: 64px;
+        }
+    }
+}
