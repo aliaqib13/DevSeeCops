@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Step images Should render successfully 1`] = `
+<div
+  className="step-images"
+>
+  <UploadImage
+    uploadImage={[Function]}
+  />
+  <List
+    bordered={false}
+    className="steps-images-list"
+    dataSource={
+      Array [
+        Object {
+          "course_id": 1,
+          "id": 4,
+          "image": "https://atp-resources-dev-testing.s3.eu-central-1.amazonaws.com/steps-images/EIaG35P0jcq1VTEX9UdrUGAEIUKFtOve.png",
+          "uuid": "6c2a6c73-da92-441d-a9ce-369b09d28fa5",
+        },
+        Object {
+          "course_id": 1,
+          "id": 5,
+          "image": "https://atp-resources-dev-testing.s3.eu-central-1.amazonaws.com/steps-images/tvSyAhFtu5QWvqpbZLxs9Y4IYNOctsW9.png",
+          "uuid": "6487959d-6fbf-4c3a-811c-756950047c39",
+        },
+        Object {
+          "course_id": 1,
+          "id": 6,
+          "image": "https://atp-resources-dev-testing.s3.eu-central-1.amazonaws.com/steps-images/yOUCX4WNi9oRM5Nmm6YSayoK3NZafg9h.png",
+          "uuid": "644d54b1-a654-4a28-b975-bb191122c233",
+        },
+      ]
+    }
+    itemLayout="horizontal"
+    loading={false}
+    pagination={true}
+    renderItem={[Function]}
+    split={true}
+  />
+  <Modal
+    className="steps-image-preview-modal"
+    confirmLoading={false}
+    footer={
+      Array [
+        <Button
+          block={false}
+          ghost={false}
+          htmlType="button"
+          loading={false}
+          onClick={[Function]}
+        >
+          Close
+        </Button>,
+      ]
+    }
+    maskTransitionName="fade"
+    okType="primary"
+    onCancel={[Function]}
+    title="Image Preview"
+    transitionName="zoom"
+    visible={false}
+    width="50%"
+  >
+    <div
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <img
+        alt="step"
+        src=""
+        style={
+          Object {
+            "maxWidth": "100%",
+          }
+        }
+      />
+    </div>
+  </Modal>
+</div>
+`;

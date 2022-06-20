@@ -1,0 +1,12 @@
+.billing-subscriptions-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .view-customer-portal-button, .credit-card-component{
+        padding-top: 30px;
+        
+        .view-button{
+            height: 50px;
+        }
+    }
+}

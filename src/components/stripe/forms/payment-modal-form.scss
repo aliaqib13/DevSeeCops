@@ -1,0 +1,26 @@
+.payment-form{
+    .amount-include-vat{
+        .amount-changes{
+            .cost-details{
+                display: flex;
+                flex-direction: column;
+                text-align: right;
+                padding: 10px 10px 3px 0 ;
+                border-bottom: black solid 1px ;
+                line-height: 23px;
+                font-size: 14px;
+                font-weight:500;
+
+            }
+            .total-remaining{
+                line-height: 24px;
+                font-size: 16px;
+                font-weight:600;
+                padding: 5px 0 0 10px;
+                margin-bottom: 12px;
+                text-align: left;
+            }
+        }
+     
+    }
+}

@@ -1,0 +1,46 @@
+.antModal {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.antModal .modalBodyRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+.antModal .modalBodyRow h1 {
+    font-size: 24px;
+}
+.antModal .modalBodyRow .modalAntSelect {
+    max-width: 418px; 
+    width: 80%;
+}
+.antModal .modalBodyRow .modalTextCol {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: #26262626 1px solid;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.antModal .modalBodyRow .modalSelectsCol {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 32px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.antModal .modalButtonRow {
+    text-align: center;
+    border-top: #26262626 1px solid;
+}
+.antModal .modalButtonRow button {
+    margin-top: 32px; 
+    margin-bottom: 8px;
+    width: 168px;
+    height: 48px;
+}

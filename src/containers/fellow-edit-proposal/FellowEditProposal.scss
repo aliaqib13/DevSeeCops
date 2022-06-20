@@ -1,0 +1,30 @@
+.suitability-group {
+    margin-bottom: 36px;
+}
+
+.course-proposal-form {
+    width: 90%;
+
+    @media (min-width: 1024px) {
+        width: 80%;
+    }
+    @media (min-width: 1280px) {
+        width: 60%;
+    }
+}
+
+.btn-upload-zip {
+    margin-right: 20px;
+}
+
+.btn-save-proposal {
+    margin-right: 20px;
+}
+
+.terms_conditions {
+    padding-left: 0;
+}
+
+.upload-details-list > li {
+    line-height: 20px;
+}
