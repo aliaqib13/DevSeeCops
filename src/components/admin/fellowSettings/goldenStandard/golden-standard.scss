@@ -1,0 +1,45 @@
+.golden-standard-container {
+  .courses-item {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .add-slug-btn {
+    left: 2%;
+  }
+
+  .ant-card-head {
+    padding-top: 0;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 0;
+  }
+
+  .durationContainer {
+    background: linear-gradient(to right, #5396d1, #5bc8ab);
+    height: 42px;
+    width: 100%;
+    .timerContainer{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: 100%;
+      padding: 0 16px;
+    }
+  }
+
+  .courses-card {
+    .edit-course-bnt {
+      background-color: #1c88c7;
+      color: #FFFFFF;
+      float: left;
+      margin-left: 5px;
+      margin-top: 5px;
+    }
+  }
+  .categoryRow {
+    padding: 16px 16px 0px 16px;
+  }
+}

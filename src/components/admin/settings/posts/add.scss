@@ -1,0 +1,54 @@
+.imageContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  .inputSpan {
+    color: #27393D80;
+    margin-bottom: 9px;
+  }
+  .uploadImage {
+    display: flex;
+    img {
+      width: 28px;
+      height: 24px;
+      margin-bottom: 10px;
+      vertical-align: middle;
+      border-style: none;
+    }
+    span {
+      color: #3333335C;
+    }
+  }
+  .imageUploader {
+    width: 176px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid #3333335C;
+  }
+
+  .courseImage {
+    font-size: 20px;
+    height: 50px;
+  }
+  .imageDiv {
+    margin-left: 16px;
+    img {
+      width: 176px;
+      height: 112px;
+    }
+  }
+}
+.post-tags {
+  .ant-card-head-title {
+    padding: 11px 0 !important;
+  }
+  .ant-card-extra {
+    padding: 11px 0 !important;
+  }
+}

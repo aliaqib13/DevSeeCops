@@ -1,0 +1,76 @@
+.ant-carousel .slick-initialized.certificate-carousel {
+  margin: 0 auto;
+  width: 90%;
+  @media(max-width: 1800px) {
+    width: 100%;
+  }
+  @media(max-width: 1366px) {
+    width: 80%;
+  }
+  @media(max-width: 1300px) {
+    width: 100%;
+  }
+  @media(max-width: 900px) {
+    width: 90%;
+  }
+  @media(max-width: 766px) {
+    width: 100%;
+  }
+  @media(max-width: 670px) {
+    width: 80%;
+  }
+  @media(max-width: 465px) {
+    width: 100%;
+  }
+  .slick-list {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+    .slick-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: inherit !important;
+      &>div {
+        height: 100%;
+      }
+      img {
+        display: inline;
+      }
+    }
+  }
+  .slick-track {
+    display: flex !important;
+  }
+  .slick-prev, .slick-next {
+    color: #314559;
+    font-size: 35px;
+    width: 35px;
+    height: 35px;
+    z-index: 2;
+    margin-top: 0;
+    transform: translateY(-50%);
+    &:focus {
+      color: #314559;
+    }
+    &:hover {
+      color: #314559;
+      opacity: 0.8;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  .slick-next {
+    right: 0;
+    @media (max-width: 380px) {
+      right: -18px;
+    }
+  }
+  .slick-prev {
+    left: 0;
+    @media (max-width: 380px) {
+      left: -18px;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="235" viewBox="0 0 500 235">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#59c0af"/>
+      <stop offset="1" stop-color="#54a2c5"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_685" data-name="Group 685" transform="translate(-14137 -966)">
+    <g id="Group_684" data-name="Group 684" transform="translate(0 14)">
+      <path id="Polygon_12" data-name="Polygon 12" d="M45.5,0,91,91H0Z" transform="translate(14637 1115) rotate(180)" fill="url(#linear-gradient)"/>
+      <g id="araido" transform="translate(14579.521 1044.232)">
+        <path id="Path_1990" data-name="Path 1990" d="M132.063,166.134l-6.207-10.554-6.208,10.554-1.812,3.078-1.1,1.869-3.3,5.6h6.6l1.1-1.868,1.1-1.868h9.443l-5.819-9.9-3.622,6.158h2.2l1.425-2.421,1.423,2.421,1.1,1.868h-7.244l-2.2,3.737h-2.2l3.3-5.606,5.821-9.9,9.118,15.5h-4.4l1.1,1.868h6.6Z" transform="translate(-113.44 -155.58)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_683" data-name="Group 683">
+      <g id="Group_678" data-name="Group 678">
+        <g id="Union_3" data-name="Union 3" transform="translate(14475.001 992) rotate(180)">
+          <path id="Path_1815" data-name="Path 1815" d="M0,13,21.241,26V19.5H225V6.5H21.241V0Z" fill="none"/>
+          <path id="Path_1816" data-name="Path 1816" d="M20.241,24.216V18.5H224V7.5H20.241V1.785L1.916,13,20.241,24.216m1,1.784L0,13,21.241,0V6.5H225v13H21.241Z" fill="#27393d"/>
+        </g>
+        <text id="_1._Autentification" data-name="1. Autentification" transform="translate(14307.52 1011)" fill="#495e63" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">1. Authentication</tspan></text>
+      </g>
+      <g id="Group_679" data-name="Group 679" transform="translate(0 -8)">
+        <g id="Union_6" data-name="Union 6" transform="translate(14249.999 1036)">
+          <path id="Path_1817" data-name="Path 1817" d="M0,13,21.241,0V6.5H225v13H21.241V26Z" fill="none"/>
+          <path id="Path_1818" data-name="Path 1818" d="M20.241,1.784,1.916,13,20.241,24.216V18.5H224V7.5H20.241V1.784m1-1.784V6.5H225v13H21.241V26L0,13Z" fill="#27393d"/>
+        </g>
+        <text id="_2._Access_token" data-name="2. Access token" transform="translate(14313.2 1081)" fill="#495e63" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">2. Access token</tspan></text>
+      </g>
+      <g id="Group_680" data-name="Group 680" transform="translate(0 -4)">
+        <g id="Union_7" data-name="Union 7" transform="translate(14475.002 1120) rotate(180)">
+          <path id="Path_1819" data-name="Path 1819" d="M0,13,21.241,26V19.5H225V6.5H21.241V0Z" fill="none"/>
+          <path id="Path_1820" data-name="Path 1820" d="M20.241,24.216V18.5H224V7.5H20.241V1.785L1.916,13,20.241,24.216m1,1.784L0,13,21.241,0V6.5H225v13H21.241Z" fill="#27393d"/>
+        </g>
+        <text id="_3._Reads_secrets" data-name="3. Reads secrets" transform="translate(14310.527 1139)" fill="#495e63" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">3. Reads secrets</tspan></text>
+      </g>
+      <g id="Group_681" data-name="Group 681">
+        <g id="Union_8" data-name="Union 8" transform="translate(14250 1152)">
+          <path id="Path_1821" data-name="Path 1821" d="M0,13,21.241,0V6.5H225v13H21.241V26Z" fill="none"/>
+          <path id="Path_1822" data-name="Path 1822" d="M20.241,1.784,1.916,13,20.241,24.216V18.5H224V7.5H20.241V1.784m1-1.784V6.5H225v13H21.241V26L0,13Z" fill="#27393d"/>
+        </g>
+        <text id="_4._Return_secrets" data-name="4. Return secrets" transform="translate(14308.128 1197)" fill="#495e63" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">4. Return secrets</tspan></text>
+      </g>
+    </g>
+    <g id="Group_682" data-name="Group 682" transform="translate(0 6)">
+      <g id="Group_677" data-name="Group 677" transform="translate(-358 276)">
+        <g id="Ellipse_68" data-name="Ellipse 68" transform="translate(14504 766)" fill="none" stroke="#27393d" stroke-width="2">
+          <circle cx="12" cy="12" r="12" stroke="none"/>
+          <circle cx="12" cy="12" r="11" fill="none"/>
+        </g>
+        <g id="Rectangle_156" data-name="Rectangle 156" transform="translate(14495 789)">
+          <path id="Path_1823" data-name="Path 1823" d="M10,0H32A10,10,0,0,1,42,10V24H0V10A10,10,0,0,1,10,0Z" fill="none"/>
+          <path id="Path_1824" data-name="Path 1824" d="M10,1H32a9,9,0,0,1,9,9V22a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V10a9,9,0,0,1,9-9Z" fill="none" stroke="#27393d" stroke-width="2"/>
+        </g>
+        <line id="Line_46" data-name="Line 46" y1="10" transform="translate(14505.5 802.5)" fill="none" stroke="#27393d" stroke-width="3"/>
+        <line id="Line_47" data-name="Line 47" y1="10" transform="translate(14526.5 802.5)" fill="none" stroke="#27393d" stroke-width="3"/>
+      </g>
+      <text id="Client" transform="translate(14138.432 1110)" fill="#495e63" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Client</tspan></text>
+    </g>
+  </g>
+</svg>

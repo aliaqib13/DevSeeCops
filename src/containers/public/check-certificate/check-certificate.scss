@@ -1,0 +1,29 @@
+.check-certificate-container{
+  text-align: center;
+
+  .card-container{
+    line-height: 23px;
+    padding: 30px 20px 28px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    .categoryRow{
+      .credential-id{
+        @media (max-width: 1366px) {
+          font-size: 10px;
+        }
+        margin-top: 20px;
+        font-size: 15px;
+        color: #314659;
+      }
+    }
+  }
+  
+
+}
+.search-check-certificate {
+  input {
+    width: 50%;
+  }
+}

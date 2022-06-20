@@ -1,0 +1,25 @@
+.notificationsContainer {
+  border-color: #E8E8E8;
+  .openedNotification {
+    margin-top: 10px;
+  }
+  .unopenedNotification {
+    margin-top: 10px;
+    color: #000000;
+    font-weight: bold;
+  }
+  .notificationContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .notification {
+    width: 90%;
+    //white-space: nowrap;
+    //overflow: hidden;
+    //text-overflow: ellipsis;
+  }
+  button {
+    margin: 0 5px;
+  }
+}

@@ -1,0 +1,503 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preferences Should render \`Preferences\` container successfully 1`] = `
+<div
+  className="preferences-container"
+>
+  <Form
+    colon={true}
+    hideRequiredMark={false}
+    layout="horizontal"
+    onSubmit={[Function]}
+  >
+    <FormItem
+      hasFeedback={false}
+      key="0"
+      label="How experienced are you in DevSecOps ?"
+    >
+      <RadioGroup
+        buttonStyle="solid"
+        name="experience"
+        onChange={[Function]}
+      >
+        <RadioButton
+          key="0"
+          value={0}
+        >
+          0
+        </RadioButton>
+        <RadioButton
+          key="1"
+          value={1}
+        >
+          1
+        </RadioButton>
+        <RadioButton
+          key="2"
+          value={2}
+        >
+          2
+        </RadioButton>
+        <RadioButton
+          key="3"
+          value={3}
+        >
+          3
+        </RadioButton>
+        <RadioButton
+          key="4"
+          value={4}
+        >
+          4
+        </RadioButton>
+        <RadioButton
+          key="5"
+          value={5}
+        >
+          5
+        </RadioButton>
+        <RadioButton
+          key="6"
+          value={6}
+        >
+          6
+        </RadioButton>
+        <RadioButton
+          key="7"
+          value={7}
+        >
+          7
+        </RadioButton>
+        <RadioButton
+          key="8"
+          value={8}
+        >
+          8
+        </RadioButton>
+        <RadioButton
+          key="9"
+          value={9}
+        >
+          9
+        </RadioButton>
+      </RadioGroup>
+    </FormItem>
+    <FormItem
+      hasFeedback={false}
+      key="1"
+      label="What best describes your work / expertise ?"
+    >
+      <RadioGroup
+        buttonStyle="outline"
+        name="work_description"
+        onChange={[Function]}
+      >
+        <Radio
+          key="0"
+          style={
+            Object {
+              "display": "block",
+              "height": "30px",
+              "lineHeight": "30px",
+            }
+          }
+          type="radio"
+          value="Development"
+        >
+          Development
+        </Radio>
+        <Radio
+          key="1"
+          style={
+            Object {
+              "display": "block",
+              "height": "30px",
+              "lineHeight": "30px",
+            }
+          }
+          type="radio"
+          value="Operations"
+        >
+          Operations
+        </Radio>
+        <Radio
+          key="2"
+          style={
+            Object {
+              "display": "block",
+              "height": "30px",
+              "lineHeight": "30px",
+            }
+          }
+          type="radio"
+          value="Security"
+        >
+          Security
+        </Radio>
+        <Radio
+          key="3"
+          style={
+            Object {
+              "display": "block",
+              "height": "30px",
+              "lineHeight": "30px",
+            }
+          }
+          type="radio"
+          value="It is all even in my work : DevSecOps"
+        >
+          It is all even in my work : DevSecOps
+        </Radio>
+        <Radio
+          style={
+            Object {
+              "display": "block",
+              "height": "30px",
+              "lineHeight": "30px",
+            }
+          }
+          type="radio"
+          value="Other"
+        >
+          Other
+        </Radio>
+      </RadioGroup>
+    </FormItem>
+    <FormItem
+      hasFeedback={false}
+      key="2"
+      label="What specific DevSecOps categories are you interested in for training ?"
+    >
+      <CheckboxGroup
+        onChange={[Function]}
+        options={Array []}
+      >
+        <div
+          key="0"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="Threat Modeling"
+          >
+            Threat Modeling
+          </Checkbox>
+        </div>
+        <div
+          key="1"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="Secure Coding"
+          >
+            Secure Coding
+          </Checkbox>
+        </div>
+        <div
+          key="2"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="SAST"
+          >
+            SAST
+          </Checkbox>
+        </div>
+        <div
+          key="3"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="DAST"
+          >
+            DAST
+          </Checkbox>
+        </div>
+        <div
+          key="4"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="ExamplePost Management"
+          >
+            ExamplePost Management
+          </Checkbox>
+        </div>
+        <div
+          key="5"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="Container Security"
+          >
+            Container Security
+          </Checkbox>
+        </div>
+        <div
+          key="6"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="Cloud Security"
+          >
+            Cloud Security
+          </Checkbox>
+        </div>
+        <div
+          key="7"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="Compliance as Code"
+          >
+            Compliance as Code
+          </Checkbox>
+        </div>
+        <div
+          key="8"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="Secrets Management"
+          >
+            Secrets Management
+          </Checkbox>
+        </div>
+        <div
+          key="9"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="Mobile Security"
+          >
+            Mobile Security
+          </Checkbox>
+        </div>
+        <div>
+          <Checkbox
+            indeterminate={false}
+            value="Other"
+          >
+            Other
+          </Checkbox>
+        </div>
+      </CheckboxGroup>
+    </FormItem>
+    <FormItem
+      hasFeedback={false}
+      key="3"
+      label="Which Cloud platform is most relevant to your work, either now or in the near future ?"
+    >
+      <RadioGroup
+        buttonStyle="outline"
+        name="cloud_platform"
+        onChange={[Function]}
+      >
+        <Radio
+          key="0"
+          style={
+            Object {
+              "display": "block",
+              "height": "30px",
+              "lineHeight": "30px",
+            }
+          }
+          type="radio"
+          value="AWS"
+        >
+          AWS
+        </Radio>
+        <Radio
+          key="1"
+          style={
+            Object {
+              "display": "block",
+              "height": "30px",
+              "lineHeight": "30px",
+            }
+          }
+          type="radio"
+          value="Azure"
+        >
+          Azure
+        </Radio>
+        <Radio
+          key="2"
+          style={
+            Object {
+              "display": "block",
+              "height": "30px",
+              "lineHeight": "30px",
+            }
+          }
+          type="radio"
+          value="GCP"
+        >
+          GCP
+        </Radio>
+        <Radio
+          key="3"
+          style={
+            Object {
+              "display": "block",
+              "height": "30px",
+              "lineHeight": "30px",
+            }
+          }
+          type="radio"
+          value="The cloud platform isn't particularly relevant to my training needs"
+        >
+          The cloud platform isn't particularly relevant to my training needs
+        </Radio>
+        <Radio
+          style={
+            Object {
+              "display": "block",
+              "height": "30px",
+              "lineHeight": "30px",
+            }
+          }
+          type="radio"
+          value="Other"
+        >
+          Other
+        </Radio>
+      </RadioGroup>
+    </FormItem>
+    <FormItem
+      hasFeedback={false}
+      key="4"
+      label="If you would have to choose from this list, which application development platforms are relevant for your work, right now and in the near future ?"
+    >
+      <CheckboxGroup
+        onChange={[Function]}
+        options={Array []}
+      >
+        <div
+          key="0"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="Java"
+          >
+            Java
+          </Checkbox>
+        </div>
+        <div
+          key="1"
+        >
+          <Checkbox
+            indeterminate={false}
+            value=".Net"
+          >
+            .Net
+          </Checkbox>
+        </div>
+        <div
+          key="2"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="Javascript (NodeJS)"
+          >
+            Javascript (NodeJS)
+          </Checkbox>
+        </div>
+        <div
+          key="3"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="GO"
+          >
+            GO
+          </Checkbox>
+        </div>
+        <div
+          key="4"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="Python"
+          >
+            Python
+          </Checkbox>
+        </div>
+        <div
+          key="5"
+        >
+          <Checkbox
+            indeterminate={false}
+            value="The application development platform is not particularly of interest for my training needs"
+          >
+            The application development platform is not particularly of interest for my training needs
+          </Checkbox>
+        </div>
+        <div>
+          <Checkbox
+            indeterminate={false}
+            value="Other"
+          >
+            Other
+          </Checkbox>
+        </div>
+      </CheckboxGroup>
+    </FormItem>
+    <FormItem
+      hasFeedback={false}
+      key="5"
+      label="Is there anything of particular interest you like to share or you would like to ask us ?"
+    >
+      <TextArea
+        name="interest"
+        onChange={[Function]}
+        rows={4}
+      />
+    </FormItem>
+    <FormItem
+      hasFeedback={false}
+      key="assign-user-tags"
+      label="Add Course Tags"
+    >
+      <Select
+        choiceTransitionName="zoom"
+        filterOption={false}
+        mode="tags"
+        notFoundContent={
+          <Spin
+            size="small"
+            spinning={true}
+            wrapperClassName=""
+          />
+        }
+        onChange={[Function]}
+        onDeselect={[Function]}
+        onSearch={[Function]}
+        onSelect={[Function]}
+        placeholder="Add User Tags"
+        showSearch={false}
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+        transitionName="slide-up"
+        value={Array []}
+      />
+    </FormItem>
+    <FormItem
+      className="submit-preferences"
+      hasFeedback={false}
+    >
+      <Button
+        block={false}
+        ghost={false}
+        htmlType="submit"
+        loading={false}
+        type="primary"
+      >
+        Submit
+      </Button>
+    </FormItem>
+  </Form>
+</div>
+`;

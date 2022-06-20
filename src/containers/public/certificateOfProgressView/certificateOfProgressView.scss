@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Ceritificate Name Font';
+    src: url('/fonts/great-vibes/greatvibes-regular.woff');
+  }
+.certificate-of-progress-view {    
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    background-image: url('/img/certificate-background.png');
+    background-size: 900px 100%;
+    background-repeat: no-repeat;
+    // background-position: center;
+
+    thead th{
+        background-color: white;
+    }
+   
+    .certificate-user {
+        font-style: italic;
+        font-size: 40px;
+        margin-bottom: -30px;
+        font-family: 'Ceritificate Name Font', sans-serif !important;
+        color: #02306b;
+    }
+    
+    .bottom-info-ceo{
+        float: left;
+        margin-top: 40px;
+        margin-left: 10%
+    }
+    
+    .bottom-info-date{
+        width: 20%;
+        float: right;
+        margin-top: 50px;
+        margin-right: 10%;
+        text-align: center;
+    }
+    
+    .certificate-table {
+        width: 85%;
+        padding-top: 4%;
+        margin: 0 auto;       
+    }
+    
+    .certificate-table-row {
+        color: #02306b;
+        font-size: 14px;        
+    }
+    
+    
+    .certificate-table-header-row {
+        color: #00f7b4;
+        font-size: 20px;
+    }
+
+    .certificate-of-progress-header {
+        margin-top: 20px;
+    }
+
+    
+    .devsecops-icon {
+        float: right;
+        position: absolute;
+        z-index: 2;
+        margin-left: -145px;
+    }
+
+    .certificate-headers {
+        text-align: center;
+        margin-top: 55px;
+    }
+
+    .ceo-signature {
+       margin-bottom: -20px;
+       margin-left: 10%
+    }
+
+    .certificate-border {
+        position: absolute;
+        margin: 40px;        
+        width: 820px;        
+    }
+
+    .icon-cont {
+        text-align: right;
+        width: 900px;
+        margin-top: -11px
+    }
+}
+.certificate-of-progress-view-mobile {
+    .certificate-user {
+        font-style: italic;
+        font-size: 40px;
+        margin-bottom: -30px;
+        font-family: 'Ceritificate Name Font', sans-serif !important;
+        color: #02306b;
+        text-align: center;
+    }
+    .certificate-of-progress-header {
+       text-align: center;
+    }
+
+    .certificate-of-progress-presented {
+        text-align: center;
+    }
+    .certificate-table {
+        width: 85%;
+        padding-top: 8%;
+        margin: 0 auto;       
+    }
+}
+

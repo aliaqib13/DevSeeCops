@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`previewFavorites Should render successfully 1`] = `
+<Modal
+  className="preview-favorites-modal"
+  confirmLoading={false}
+  footer={
+    Array [
+      <Button
+        block={false}
+        ghost={false}
+        htmlType="button"
+        loading={false}
+        onClick={[Function]}
+      >
+        Close
+      </Button>,
+    ]
+  }
+  maskTransitionName="fade"
+  okType="primary"
+  onCancel={[Function]}
+  title="Preview Component"
+  transitionName="zoom"
+  visible={true}
+  width={1000}
+>
+  <div
+    className="blocks-container"
+  >
+    <div
+      className="box-container"
+    >
+      <GreyBox
+        block={
+          Object {
+            "content": Object {
+              "text": Array [
+                "<p>test test</p>",
+              ],
+              "titles": Array [
+                "grey box",
+              ],
+            },
+            "type": "GreyBox",
+          }
+        }
+        preview={true}
+      />
+    </div>
+  </div>
+</Modal>
+`;

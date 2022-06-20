@@ -1,0 +1,193 @@
+@media (max-width: 575px) {
+  .ant-form-item-label, .ant-form-item-control-wrapper {
+    width: inherit;
+  }
+}
+.MuiFormLabel-root-16 {
+  line-height: 1.5 !important;
+}
+.MuiOutlinedInput-input-31 {
+  padding-top: 21.5px !important;
+}
+.ant-form legend {
+  border-bottom: none;
+}
+.canvasContainer > div > div {
+  height: 100%;
+}
+.canvasContainer {
+  height: 100%;
+}
+.subscribe-email {
+  width: 220px;
+  height: 40px
+}
+
+.top-space {
+  margin-top: 10px;
+}
+
+.request-reset-email {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .subscribe-email {
+    width: 150px;
+    height: 40px
+  }
+}
+
+.login-container {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, rgb(83, 150, 209), rgb(91, 200, 171));
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card-container {
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.login-card-column {
+  margin: 50px 0;
+}
+
+.login-card {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.login-email {
+  width: 100%;
+  margin-bottom: 8px!important;
+}
+
+.login-password {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.login-password-toggle {
+  margin-top: 4px;
+}
+
+.login-card-login-form-item {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.antdbuttonTrial {
+  min-width: 168px;
+  height: 48px;
+}
+
+.login-card-hr {
+  width: 100%;
+  border: 1px solid buttonface;
+  margin: 15px;
+}
+
+.login-card-header {
+  background-image: url("/img/academy_logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-size: contain;
+}
+
+.login-card-title {
+  text-align: center;
+  margin-top: 40;
+}
+
+.login-forgot-password {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.login-register-btn {
+  min-width: 168px;
+  height: 48px;
+  background-color: #fff;
+  color: #1890ff;
+}
+
+.request-reset-email {
+  margin-left: 5px;
+}
+
+.mfa-container {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  //background-image: 'linear-gradient(to right, rgb(83, 150, 209), rgb(91, 200, 171))';
+  background-image: linear-gradient(rgb(83,150,209), rgb(91, 200, 171));
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .row-class {
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .styles-image {
+    background: url(/img/academy_logo.svg) no-repeat;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 20px;
+    background-size: contain;
+  }
+  .verify-button-item {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+
+    .verify-button {
+      min-width: 168px;
+      height: 48px;
+    }
+  }
+  .mfa-title {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .center-element {
+    display: block;
+    margin: auto;
+  }
+  .qr-input {
+   color: rgba(0,0,0,.25);
+   margin-bottom: 3%;
+  }
+  .qr-description {
+    text-align: center;
+  }
+  .qr-manualy-code {
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+    max-width: 100%;
+
+    span {
+      cursor: pointer;
+    }
+  }
+}
+
+.login-card-inner-ct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,8 @@
+.options-list-container {
+  margin-left: 20px;
+  .options-list {
+    &.ant-list-split .ant-list-item {
+      border-bottom: none;
+    }
+  }
+}
